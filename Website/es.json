@@ -1,0 +1,193 @@
+{
+    "shared": {
+        "invalid_discord_handle": "",
+        "delete_button": "",
+        "close_button": "",
+        "cancel_button": "",
+        "save_button": "",
+        "clear_button": "",
+        "search_button": "",
+        "reset_button": "",
+        "gil": ""
+    },
+    "user": {
+        "delete_account": {
+            "deleted": "",
+            "delete_account": "",
+            "description": "",
+            "content": "",
+            "delete_account_confirmation": "",
+            "delete_account_instructions": ""
+        },
+        "other_sessions": {
+            "terminated": "",
+            "title": "",
+            "description": "",
+            "content": "",
+            "this_device": "",
+            "last_active": "",
+            "logout_other_button": "",
+            "done": "",
+            "modal_confirmation": {
+                "title": "",
+                "content": ""
+            }
+        },
+        "preferences": {
+            "title": "",
+            "description": "",
+            "dark_mode": "",
+            "dark_mode_description": "",
+            "time_zone": "",
+            "time_zone_description": "",
+            "saved": ""
+        },
+        "title": ""
+    },
+    "website": {
+        "auth": {
+            "discord_missing_code": "",
+            "discord_invalid_code": "",
+            "discord_authorization_failed": "",
+            "discord_not_allowed": "",
+            "dashboard": "",
+            "login": ""
+        },
+        "top_navigation": {
+            "characters": "",
+            "retainer_sales": "",
+            "notifications": "",
+            "download": ""
+        },
+        "user_navigation": {
+            "manage_account": "",
+            "profile": "",
+            "api_tokens": "",
+            "current_plan": "",
+            "billing_portal": "",
+            "logout": ""
+        },
+        "translation_in_progress": {
+            "header": "",
+            "text": ""
+        },
+        "footer": {
+            "line1": "",
+            "line2": ""
+        }
+    },
+    "character": {
+        "settings": {
+            "character_deleted": "",
+            "title": "",
+            "description": "",
+            "content": "",
+            "delete_character": "",
+            "delete_character_confirmation": "",
+            "delete_character_instructions": ""
+        },
+        "interactions_events": {
+            "events_deleted": "",
+            "interaction_sent": "",
+            "interactions_deleted": "",
+            "interactions": "",
+            "events": "",
+            "no_event": "",
+            "load_more": ""
+        },
+        "navigation": {
+            "interactions_events": "",
+            "classes_currency": "",
+            "settings": ""
+        }
+    },
+    "api_tokens": {
+        "header": "",
+        "create": {
+            "title": "",
+            "description": "",
+            "created": "",
+            "create_button": ""
+        },
+        "shared": {
+            "name": "",
+            "permissions": ""
+        },
+        "manage": {
+            "title": "",
+            "description": "",
+            "last_used": ""
+        },
+        "modal_created": {
+            "title": "",
+            "content": ""
+        },
+        "modal_permissions": {
+            "title": ""
+        },
+        "modal_delete": {
+            "title": "",
+            "content": ""
+        }
+    },
+    "characters": {
+        "header": ""
+    },
+    "retainer_sales": {
+        "header": "",
+        "export_excel_button": "",
+        "no_result": "",
+        "do_search_first": "",
+        "columns": {
+            "datacenter": "",
+            "server": "",
+            "character": "",
+            "date_time": "",
+            "market": "",
+            "quantity_long": "",
+            "item": "",
+            "sold_for": ""
+        }
+    },
+    "welcome": {
+        "title": "",
+        "currently_in_alpha": {
+            "header": "",
+            "text": ""
+        },
+        "block1": {
+            "header": "",
+            "text": ""
+        },
+        "block2": {
+            "header": "",
+            "text": ""
+        },
+        "features": {
+            "dont_miss_a_thing": {
+                "header": "",
+                "text": ""
+            },
+            "follow_conversation": {
+                "header": "",
+                "text": ""
+            },
+            "reply_back": {
+                "header": "",
+                "text": ""
+            },
+            "integrates": {
+                "header": "",
+                "text": ""
+            },
+            "dominate_market": {
+                "header": "",
+                "text": ""
+            },
+            "stay_informed": {
+                "header": "",
+                "text": ""
+            }
+        }
+    }
+}

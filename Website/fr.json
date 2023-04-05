@@ -1,0 +1,198 @@
+{
+    "api_tokens": {
+        "create": {
+            "create_button": "",
+            "created": "",
+            "description": "",
+            "title": ""
+        },
+        "header": "",
+        "manage": {
+            "description": "",
+            "last_used": "",
+            "title": ""
+        },
+        "modal_created": {
+            "content": "",
+            "title": ""
+        },
+        "modal_delete": {
+            "content": "",
+            "title": ""
+        },
+        "modal_permissions": {
+            "title": ""
+        },
+        "shared": {
+            "name": "",
+            "permissions": ""
+        }
+    },
+    "character": {
+        "character_deleted": "",
+        "events_deleted": "",
+        "interaction_sent": "",
+        "interactions_deleted": "",
+        "settings": {
+            "character_deleted": "",
+            "title": "",
+            "description": "",
+            "content": "",
+            "delete_character": "",
+            "delete_character_confirmation": "",
+            "delete_character_instructions": ""
+        },
+        "interactions_events": {
+            "events_deleted": "",
+            "interaction_sent": "",
+            "interactions_deleted": "",
+            "interactions": "",
+            "events": "",
+            "no_event": "",
+            "load_more": ""
+        },
+        "navigation": {
+            "interactions_events": "",
+            "classes_currency": "",
+            "settings": ""
+        }
+    },
+    "characters": {
+        "header": ""
+    },
+    "retainer_sales": {
+        "columns": {
+            "character": "Joueur",
+            "datacenter": "Datacenter",
+            "date_time": "Date/Heure",
+            "item": "Objet",
+            "market": "Marché",
+            "quantity_long": "Quantité",
+            "quantity_short": "Qté",
+            "server": "Serveur",
+            "sold_for": "Vendu pour"
+        },
+        "do_search_first": "Rien pour le moment. Effectuez une recherche.",
+        "export_excel_button": "Exporter vers Excel",
+        "header": "Ventes des servants",
+        "no_result": "Il n'y a aucune vente pour la période de temps sélectionnée."
+    },
+    "shared": {
+        "cancel_button": "Annuler",
+        "clear_button": "Vider",
+        "close_button": "Fermer",
+        "delete_button": "Supprimer",
+        "gil": "Gil",
+        "reset_button": "Réinitialiser",
+        "save_button": "Sauvegarder",
+        "search_button": "Chercher",
+        "invalid_discord_handle": ""
+    },
+    "user": {
+        "delete_account": {
+            "deleted": "",
+            "delete_account": "",
+            "description": "",
+            "content": "",
+            "delete_account_confirmation": "",
+            "delete_account_instructions": ""
+        },
+        "other_sessions": {
+            "terminated": "",
+            "title": "",
+            "description": "",
+            "content": "",
+            "this_device": "",
+            "last_active": "",
+            "logout_other_button": "",
+            "done": "",
+            "modal_confirmation": {
+                "title": "",
+                "content": ""
+            }
+        },
+        "preferences": {
+            "title": "",
+            "description": "",
+            "dark_mode": "",
+            "dark_mode_description": "",
+            "time_zone": "",
+            "time_zone_description": "",
+            "saved": ""
+        },
+        "title": ""
+    },
+    "website": {
+        "auth": {
+            "dashboard": "Tableau de bord",
+            "discord_authorization_failed": "",
+            "discord_invalid_code": "",
+            "discord_missing_code": "",
+            "discord_not_allowed": "",
+            "login": ""
+        },
+        "footer": {
+            "line1": "Minionway n'est pas affilié, associé ou approuvé par MMOMinion (Raving Lunatic Sp. z o.o.) et/ou Final Fantasy XIV (SQUARE ENIX CO., LTD.). Final Fantasy XIV © 2010-:year SQUARE ENIX CO., LTD. Toutes les marques déposées sont la propriété de leurs propriétaires respectifs.",
+            "line2": "Minionway.com et le logo Minionway sont ©:year Minionway Software. Le logo Minionway a été créé par l'incroyablement talentueuse <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
+        },
+        "top_navigation": {
+            "characters": "",
+            "download": "",
+            "notifications": "",
+            "retainer_sales": ""
+        },
+        "translation_in_progress": {
+            "header": "Traduction en cours",
+            "text": "La traduction de Minionway est faite par la communauté. Si vous voulez aider, rejoignez #translation dans notre Discord."
+        },
+        "user_navigation": {
+            "api_tokens": "",
+            "billing_portal": "",
+            "current_plan": "",
+            "logout": "",
+            "manage_account": "",
+            "profile": ""
+        }
+    },
+    "welcome": {
+        "block1": {
+            "header": "Voici Minionway!",
+            "text": "Faites passer votre jeu FFXIV au niveau supérieur avec Minionway. Surveillez vos personnages, interagissez avec les joueurs, gardez un œil sur les ventes de vos serviteurs et bien plus!"
+        },
+        "block2": {
+            "header": "Il n'y a pas de moyen plus simple de rester connecté!",
+            "text": "Voici quelques raisons pour lesquelles vous devriez utiliser Minionway:"
+        },
+        "currently_in_alpha": {
+            "header": "Présentement en alpha",
+            "text": "Minionway est disponible sous invitation seulement. Intéressé? Joignez nous sur Discord!"
+        },
+        "features": {
+            "dominate_market": {
+                "header": "Dominez le marché",
+                "text": "Surveillez chaque vente effectuée par vos serviteurs. Générez et exportez des rapports."
+            },
+            "dont_miss_a_thing": {
+                "header": "Ne manquez rien",
+                "text": "Gardez un œil sur votre minion en temps réel et assurez-vous qu'il est toujours productif."
+            },
+            "follow_conversation": {
+                "header": "Suivez la discussion",
+                "text": "Voyez ce qui se passe autour de vous, dans votre compagnie libre ou dans vos Linkshells."
+            },
+            "integrates": {
+                "header": "S'intègre dans FFXIVMinion.",
+                "text": "Fonctionne avec tous les autres addons FFXIVMinion. Vous pouvez même surveiller/contrôler certains d'entre eux directement dans Minionway."
+            },
+            "reply_back": {
+                "header": "Répondez",
+                "text": "Envoie un message ou réponds à n'importe quel /dire, /compagnielibre, /murmurer et plus."
+            },
+            "stay_informed": {
+                "header": "Restez informé lors de vos déplacements",
+                "text": "Recevez une notification sur Discord ou par e-mail pour les événements qui vous intéressent."
+            }
+        },
+        "title": "Minionway - Faites passer votre jeu FFXIV au niveau supérieur!"
+    }
+}

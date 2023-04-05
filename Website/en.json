@@ -1,0 +1,198 @@
+{
+    "api_tokens": {
+        "create": {
+            "create_button": "Create",
+            "created": "Created!",
+            "description": "API tokens allow third-party services to authenticate with our application on your behalf.",
+            "title": "Create API Token"
+        },
+        "header": "API Tokens",
+        "manage": {
+            "deleted": "Deleted!",
+            "description": "You may delete any of your existing tokens if they are no longer needed.",
+            "last_used": "Last used :last_used_ago",
+            "title": "Manage API Tokens"
+        },
+        "modal_created": {
+            "content": "Please copy your new API token. For your security, it won't be shown again.",
+            "title": "API Token Created"
+        },
+        "modal_delete": {
+            "content": "Are you sure you would like to delete this API token? THIS ACTION CANNOT BE UNDONE.",
+            "title": "Delete API Token"
+        },
+        "modal_permissions": {
+            "title": "API Token Permissions"
+        },
+        "shared": {
+            "name": "Name",
+            "permissions": "Permissions"
+        }
+    },
+    "character": {
+        "classes_currency": [],
+        "interactions_events": {
+            "events": "Events",
+            "events_deleted": "All events for :name have been deleted.",
+            "interaction_sent": "Your message \":message\" will be sent the next time the addon connects to the Minionway server, which can take up to 30 seconds.",
+            "interactions": "Interactions",
+            "interactions_deleted": "All interactions for :name have been deleted.",
+            "load_more": "Load more",
+            "no_event": "Nothing yet!"
+        },
+        "navigation": {
+            "classes_currency": "Classes, Jobs & Currency",
+            "interactions_events": "Interactions & Events",
+            "settings": "Settings"
+        },
+        "settings": {
+            "character_deleted": "The character :name has been deleted from your account",
+            "content": "Once this character is deleted, all of its data will be permanently deleted. You can add it again by starting the addon while playing this character.",
+            "delete_character": "Delete Character",
+            "delete_character_confirmation": "Are you sure you want to delete your account? Once your account is deleted, all of data will be permanently deleted. THIS ACTION CANNOT BE UNDONE.",
+            "delete_character_instructions": "Please enter your full Discord handle, <span class=\"font-semibold\">:handle</span> to confirm you would like to permanently delete your account.",
+            "description": "Permanently delete <span class=\"font-semibold\">:name</span> from your account",
+            "title": "Delete <span class=\"font-semibold\">:name</span> from your account"
+        }
+    },
+    "characters": {
+        "header": "Characters"
+    },
+    "retainer_sales": {
+        "columns": {
+            "character": "Character",
+            "datacenter": "Datacenter",
+            "date_time": "Date/Time",
+            "dc_server": "DC/Server",
+            "item": "Item",
+            "market": "Market",
+            "quantity": "",
+            "quantity_long": "Quantity",
+            "quantity_short": "Qty",
+            "server": "Server",
+            "sold_for": "Sold For"
+        },
+        "do_search_first": "Nothing yet. Do a search first.",
+        "export_excel_button": "Export to Excel",
+        "header": "Retainer Sales",
+        "no_result": "There are no sales to display for the selected time period."
+    },
+    "shared": {
+        "cancel_button": "Cancel",
+        "clear_button": "Clear",
+        "close_button": "Close",
+        "delete_button": "Delete",
+        "gil": "gil",
+        "invalid_discord_handle": "Invalid Discord handle",
+        "reset_button": "Reset",
+        "save_button": "Save",
+        "search_button": "Search"
+    },
+    "user": {
+        "delete_account": {
+            "content": "Once your account is deleted, all of its resources and data will be permanently deleted. Before deleting your account, please download any data or information that you wish to retain.",
+            "delete_account": "Delete Account",
+            "delete_account_confirmation": "Are you sure you want to delete your account? Once your account is deleted, all of its resources and data will be permanently deleted. THIS ACTION CANNOT BE UNDONE.",
+            "delete_account_instructions": "Please enter your full Discord handle, <span class=\"font-semibold\">:handle</span> to confirm you would like to permanently delete your account.",
+            "deleted": "Your account has been deleted.",
+            "description": "Permanently delete your account."
+        },
+        "other_sessions": {
+            "content": "If necessary, you may log out of all of your other browser sessions across all of your devices. Some of your recent sessions are listed below; however, this list may not be exhaustive. If you feel your account has been compromised, you should also update your Discord password.",
+            "description": "Manage and log out your active sessions on other browsers and devices.",
+            "done": "Done!",
+            "last_active": "Last active",
+            "logout_other_button": "Log Out Other Browser Sessions",
+            "modal_confirmation": {
+                "content": "Please enter your full Discord handle, <span class=\"font-semibold\">:discord_handle</span> to confirm you would like to log out of your other browser sessions across all of your devices.",
+                "title": "Log Out Other Browser Sessions"
+            },
+            "terminated": "Your other sessions have been terminated.",
+            "this_device": "This device",
+            "title": "Browser Sessions"
+        },
+        "preferences": {
+            "dark_mode": "Dark Mode",
+            "dark_mode_description": "Activate dark mode.",
+            "description": "Update your account's preferences",
+            "saved": "Saved!",
+            "time_zone": "Timezone",
+            "time_zone_description": "When dates are displayed, show them in this timezone.",
+            "title": "Preferences"
+        },
+        "title": "Profile"
+    },
+    "website": {
+        "auth": {
+            "dashboard": "Dashboard",
+            "discord_authorization_failed": "The authorization failed.",
+            "discord_invalid_code": "The authorization code is invalid.",
+            "discord_missing_code": "The authorization code is missing.",
+            "discord_not_allowed": "You are not allowed to login.",
+            "login": "Login with Discord"
+        },
+        "footer": {
+            "line1": "Minionway is not affiliated, associated or endorsed by MMOMinion (Raving Lunatic Sp. z o.o.) and/or Final Fantasy XIV (SQUARE ENIX CO., LTD.). Final Fantasy XIV © 2010-:year SQUARE ENIX CO., LTD. All trademarks are property of their respective owners.",
+            "line2": "Minionway.com and the Minionway logo are ©:year Minionway Software. The Minionway logo was created by the incredibly talented <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
+        },
+        "top_navigation": {
+            "characters": "Characters",
+            "download": "Download",
+            "notifications": "Notifications",
+            "retainer_sales": "Retainer Sales"
+        },
+        "translation_in_progress": {
+            "header": "Translation in progress",
+            "text": "Translation of Minionway is done by the community. If you want to help, join #translation in our Discord."
+        },
+        "user_navigation": {
+            "api_tokens": "API Tokens",
+            "billing_portal": "Billing Portal",
+            "current_plan": "Current plan: :plan_name",
+            "logout": "Log Out",
+            "manage_account": "Manage Account",
+            "profile": "Profile"
+        }
+    },
+    "welcome": {
+        "block1": {
+            "header": "Welcome to Minionway!",
+            "text": "Take your FFXIV game to the next level with Minionway. Monitor your characters, interact with players, keep an eye on your retainer' sales and much more!"
+        },
+        "block2": {
+            "header": "There's no easier way to stay connected!",
+            "text": "Here are a few reasons why you should use Minionway:"
+        },
+        "currently_in_alpha": {
+            "header": "Currently in alpha",
+            "text": "Minionway is available on invite only for the moment. Interested? Join us on Discord!"
+        },
+        "features": {
+            "dominate_market": {
+                "header": "Dominate the market",
+                "text": "Monitor every sale your retainers makes. Generate and export reports."
+            },
+            "dont_miss_a_thing": {
+                "header": "Don't miss a thing",
+                "text": "Keep an eye on your minion in real-time and make sure it's always productive."
+            },
+            "follow_conversation": {
+                "header": "Follow the conversation",
+                "text": "See what's happening around you, in your Free Company or in your Linkshells."
+            },
+            "integrates": {
+                "header": "Integrates into FFXIVMinion.",
+                "text": "Works with every other FFXIVMinion addons. You can even monitor/control some of them directly in Minionway."
+            },
+            "reply_back": {
+                "header": "Reply back",
+                "text": "Send a message or reply to any /say, /fc, /tell and more."
+            },
+            "stay_informed": {
+                "header": "Stay informed on the go",
+                "text": "Get notified on Discord or via email for the events that matters to you."
+            }
+        },
+        "title": "Minionway - Take your FFXIV game to the next level!"
+    }
+}
