@@ -31,6 +31,10 @@
     },
     "commands": {
         "10": "Say",
+        "10000": "Trade Request",
+        "10001": "Party Invite",
+        "10002": "Party Teleport",
+        "10003": "Free Company Invite",
         "101": "Crossworld Linkshell 2",
         "102": "Crossworld Linkshell 3",
         "103": "Crossworld Linkshell 4",
@@ -52,6 +56,8 @@
         "195": "Fishing Messages",
         "2": "Urgent Messages (Server)",
         "20": "Linkshell 5",
+        "20000": "FFXIVMinion Started",
+        "20001": "FFXIVMinion Stopped",
         "21": "Linkshell 6",
         "22": "Linkshell 7",
         "23": "Linkshell 8",
@@ -94,7 +100,7 @@
             "no_player_associated": "There are no characters associated with this channel so I cannot process your command. Use the \"link\" command to link a character first.",
             "no_player_found": "No character found in your account with ID :id",
             "player_already_linked": ":player is already linked with another Discord channel (:server #:channel). Unlink it first by using the unlink command.",
-            "player_linked": ":player is now linked with :server #:channel.",
+            "player_linked": ":player is now linked with :server #:channel. Use the \"help\" command to get a list of valid commands.",
             "player_unlinked": ":player is no longer linked with :server #:channel.",
             "unknown_command": "I don't know what to do with \":command\". Use the \"help\" command to get a list of valid commands.",
             "unknown_error": "I was not able to process that command but I'm not sure why. Seek support in the Minionway Discord server."
