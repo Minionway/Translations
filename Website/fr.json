@@ -28,45 +28,124 @@
             "permissions": ""
         }
     },
-    "character": {
-        "character_deleted": "",
-        "events_deleted": "",
-        "interaction_sent": "",
-        "interactions_deleted": "",
-        "settings": {
-            "character_deleted": "",
-            "title": "",
-            "description": "",
-            "content": "",
-            "delete_character": "",
-            "delete_character_confirmation": "",
-            "delete_character_instructions": ""
-        },
-        "interactions_events": {
-            "events_deleted": "",
-            "interaction_sent": "",
-            "interactions_deleted": "",
-            "interactions": "",
-            "events": "",
-            "no_event": "",
-            "load_more": ""
-        },
-        "navigation": {
-            "interactions_events": "",
-            "classes_currency": "",
-            "settings": ""
+    "commands": {
+        "10": "Say",
+        "101": "Crossworld Linkshell 2",
+        "102": "Crossworld Linkshell 3",
+        "103": "Crossworld Linkshell 4",
+        "104": "Crossworld Linkshell 5",
+        "105": "Crossworld Linkshell 6",
+        "106": "Crossworld Linkshell 7",
+        "107": "Crossworld Linkshell 8",
+        "11": "Shout",
+        "12": "Tell",
+        "13": "Tell",
+        "14": "Party",
+        "15": "Alliance",
+        "16": "Linkshell 1",
+        "17": "Linkshell 2",
+        "18": "Linkshell 3",
+        "185": "Quest Messages",
+        "19": "Linkshell 4",
+        "194": "Crafting Messages",
+        "195": "Fishing Messages",
+        "2": "Urgent Messages (Server)",
+        "20": "Linkshell 5",
+        "21": "Linkshell 6",
+        "22": "Linkshell 7",
+        "23": "Linkshell 8",
+        "24": "Free Company",
+        "27": "Novice Network",
+        "28": "Custom Emotes",
+        "29": "Standard Emotes",
+        "3": "Notices (Server)",
+        "30": "Yell",
+        "32": "Crossworld Party",
+        "36": "PVP Team",
+        "37": "Crossworld Linkshell 1",
+        "56": "Echo",
+        "57": "System Messages",
+        "59": "Gathering System Messages",
+        "60": "Error Messages",
+        "61": "NPC Dialog",
+        "62": "Loot Notices",
+        "64": "Character Advancement (XP, Level up, Skill up, Achievements)",
+        "67": "Gathering Messages",
+        "68": "NPC Dialog (Announcement)",
+        "69": "Free Company Announcement",
+        "70": "Free Company Member Login Notifications",
+        "71": "Retainer Sale Notifications",
+        "72": "Periodic Recruitment Notifications",
+        "73": "Sign Messages for PC Targets",
+        "74": "Random Number Messages",
+        "75": "Novice Network Notifications"
+    },
+    "discord_bot": {
+        "replies": {
+            "channel_already_linked": "",
+            "help": "",
+            "invalid_id_provided": "",
+            "mirror_already_disabled": "",
+            "mirror_already_enabled": "",
+            "mirror_disabled": "",
+            "mirror_enabled": "",
+            "no_content_for_command": "",
+            "no_player_associated": "",
+            "player_already_linked": "",
+            "player_linked": "",
+            "player_unlinked": "",
+            "unknown_error": ""
         }
     },
-    "characters": {
+    "player": {
+        "classes_currency": {
+            "nothing_yet": ""
+        },
+        "discord_integration": {
+            "description": "",
+            "discord_mirror_events": "",
+            "discord_mirror_events_description": "",
+            "discord_mirror_mode": "",
+            "discord_mirror_mode_description": "",
+            "linked": "",
+            "not_linked": "",
+            "saved": "",
+            "title": ""
+        },
+        "interactions_events": {
+            "events": "",
+            "events_deleted": "",
+            "interaction_sent": "",
+            "interactions": "",
+            "interactions_deleted": "",
+            "load_more": "",
+            "no_event": ""
+        },
+        "navigation": {
+            "classes_currency": "",
+            "interactions_events": "",
+            "settings": ""
+        },
+        "settings": {
+            "content": "",
+            "delete_player": "",
+            "delete_player_confirmation": "",
+            "delete_player_instructions": "",
+            "description": "",
+            "player_deleted": "",
+            "title": ""
+        }
+    },
+    "players": {
         "header": ""
     },
     "retainer_sales": {
         "columns": {
-            "character": "Joueur",
             "datacenter": "Datacenter",
             "date_time": "Date/Heure",
             "item": "Objet",
             "market": "Marché",
+            "player": "Joueur",
             "quantity_long": "Quantité",
             "quantity_short": "Qté",
             "server": "Serveur",
@@ -83,42 +162,42 @@
         "close_button": "Fermer",
         "delete_button": "Supprimer",
         "gil": "Gil",
+        "invalid_discord_handle": "",
         "reset_button": "Réinitialiser",
         "save_button": "Sauvegarder",
-        "search_button": "Chercher",
-        "invalid_discord_handle": ""
+        "search_button": "Chercher"
     },
     "user": {
         "delete_account": {
-            "deleted": "",
-            "delete_account": "",
-            "description": "",
             "content": "",
+            "delete_account": "",
             "delete_account_confirmation": "",
-            "delete_account_instructions": ""
+            "delete_account_instructions": "",
+            "deleted": "",
+            "description": ""
         },
         "other_sessions": {
-            "terminated": "",
-            "title": "",
-            "description": "",
             "content": "",
-            "this_device": "",
+            "description": "",
+            "done": "",
             "last_active": "",
             "logout_other_button": "",
-            "done": "",
             "modal_confirmation": {
-                "title": "",
-                "content": ""
-            }
+                "content": "",
+                "title": ""
+            },
+            "terminated": "",
+            "this_device": "",
+            "title": ""
         },
         "preferences": {
-            "title": "",
-            "description": "",
             "dark_mode": "",
             "dark_mode_description": "",
+            "description": "",
+            "saved": "",
             "time_zone": "",
             "time_zone_description": "",
-            "saved": ""
+            "title": ""
         },
         "title": ""
     },
@@ -136,9 +215,9 @@
             "line2": "Minionway.com et le logo Minionway sont ©:year Minionway Software. Le logo Minionway a été créé par l'incroyablement talentueuse <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
         },
         "top_navigation": {
-            "characters": "",
             "download": "",
             "notifications": "",
+            "players": "",
             "retainer_sales": ""
         },
         "translation_in_progress": {
@@ -163,9 +242,9 @@
             "header": "Il n'y a pas de moyen plus simple de rester connecté!",
             "text": "Voici quelques raisons pour lesquelles vous devriez utiliser Minionway:"
         },
-        "currently_in_alpha": {
-            "header": "Présentement en alpha",
-            "text": "Minionway est disponible sous invitation seulement. Intéressé? Joignez nous sur Discord!"
+        "currently_in_beta": {
+            "header": "Présentement en beta",
+            "text": "Minionway est présentement en bêta et peut être utilisé gratuitement pendant cette période. Connectez-vous et commencez à profiter de Minionway aujourd'hui!"
         },
         "features": {
             "dominate_market": {
@@ -195,4 +274,5 @@
         },
         "title": "Minionway - Faites passer votre jeu FFXIV au niveau supérieur!"
     }
+}
 }

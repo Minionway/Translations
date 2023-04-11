@@ -1,160 +1,238 @@
 {
+    "api_tokens": {
+        "create": {
+            "create_button": "",
+            "created": "",
+            "description": "",
+            "title": ""
+        },
+        "header": "",
+        "manage": {
+            "description": "",
+            "last_used": "",
+            "title": ""
+        },
+        "modal_created": {
+            "content": "",
+            "title": ""
+        },
+        "modal_delete": {
+            "content": "",
+            "title": ""
+        },
+        "modal_permissions": {
+            "title": ""
+        },
+        "shared": {
+            "name": "",
+            "permissions": ""
+        }
+    },
+    "commands": {
+        "10": "Say",
+        "101": "Crossworld Linkshell 2",
+        "102": "Crossworld Linkshell 3",
+        "103": "Crossworld Linkshell 4",
+        "104": "Crossworld Linkshell 5",
+        "105": "Crossworld Linkshell 6",
+        "106": "Crossworld Linkshell 7",
+        "107": "Crossworld Linkshell 8",
+        "11": "Shout",
+        "12": "Tell",
+        "13": "Tell",
+        "14": "Party",
+        "15": "Alliance",
+        "16": "Linkshell 1",
+        "17": "Linkshell 2",
+        "18": "Linkshell 3",
+        "185": "Quest Messages",
+        "19": "Linkshell 4",
+        "194": "Crafting Messages",
+        "195": "Fishing Messages",
+        "2": "Urgent Messages (Server)",
+        "20": "Linkshell 5",
+        "21": "Linkshell 6",
+        "22": "Linkshell 7",
+        "23": "Linkshell 8",
+        "24": "Free Company",
+        "27": "Novice Network",
+        "28": "Custom Emotes",
+        "29": "Standard Emotes",
+        "3": "Notices (Server)",
+        "30": "Yell",
+        "32": "Crossworld Party",
+        "36": "PVP Team",
+        "37": "Crossworld Linkshell 1",
+        "56": "Echo",
+        "57": "System Messages",
+        "59": "Gathering System Messages",
+        "60": "Error Messages",
+        "61": "NPC Dialog",
+        "62": "Loot Notices",
+        "64": "Character Advancement (XP, Level up, Skill up, Achievements)",
+        "67": "Gathering Messages",
+        "68": "NPC Dialog (Announcement)",
+        "69": "Free Company Announcement",
+        "70": "Free Company Member Login Notifications",
+        "71": "Retainer Sale Notifications",
+        "72": "Periodic Recruitment Notifications",
+        "73": "Sign Messages for PC Targets",
+        "74": "Random Number Messages",
+        "75": "Novice Network Notifications"
+    },
+    "discord_bot": {
+        "replies": {
+            "channel_already_linked": "",
+            "help": "",
+            "invalid_id_provided": "",
+            "mirror_already_disabled": "",
+            "mirror_already_enabled": "",
+            "mirror_disabled": "",
+            "mirror_enabled": "",
+            "no_content_for_command": "",
+            "no_player_associated": "",
+            "player_already_linked": "",
+            "player_linked": "",
+            "player_unlinked": "",
+            "unknown_error": ""
+        }
+    },
+    "player": {
+        "classes_currency": {
+            "nothing_yet": ""
+        },
+        "discord_integration": {
+            "description": "",
+            "discord_mirror_events": "",
+            "discord_mirror_events_description": "",
+            "discord_mirror_mode": "",
+            "discord_mirror_mode_description": "",
+            "linked": "",
+            "not_linked": "",
+            "saved": "",
+            "title": ""
+        },
+        "interactions_events": {
+            "events": "",
+            "events_deleted": "",
+            "interaction_sent": "",
+            "interactions": "",
+            "interactions_deleted": "",
+            "load_more": "",
+            "no_event": ""
+        },
+        "navigation": {
+            "classes_currency": "",
+            "interactions_events": "",
+            "settings": ""
+        },
+        "settings": {
+            "content": "",
+            "delete_player": "",
+            "delete_player_confirmation": "",
+            "delete_player_instructions": "",
+            "description": "",
+            "player_deleted": "",
+            "title": ""
+        }
+    },
+    "players": {
+        "header": ""
+    },
+    "retainer_sales": {
+        "columns": {
+            "datacenter": "",
+            "date_time": "",
+            "item": "",
+            "market": "",
+            "player": "",
+            "quantity_long": "",
+            "server": "",
+            "sold_for": ""
+        },
+        "do_search_first": "",
+        "export_excel_button": "",
+        "header": "",
+        "no_result": ""
+    },
     "shared": {
-        "invalid_discord_handle": "",
-        "delete_button": "",
-        "close_button": "",
         "cancel_button": "",
-        "save_button": "",
         "clear_button": "",
-        "search_button": "",
+        "close_button": "",
+        "delete_button": "",
+        "gil": "",
+        "invalid_discord_handle": "",
         "reset_button": "",
-        "gil": ""
+        "save_button": "",
+        "search_button": ""
     },
     "user": {
         "delete_account": {
-            "deleted": "",
-            "delete_account": "",
-            "description": "",
             "content": "",
+            "delete_account": "",
             "delete_account_confirmation": "",
-            "delete_account_instructions": ""
+            "delete_account_instructions": "",
+            "deleted": "",
+            "description": ""
         },
         "other_sessions": {
-            "terminated": "",
-            "title": "",
-            "description": "",
             "content": "",
-            "this_device": "",
+            "description": "",
+            "done": "",
             "last_active": "",
             "logout_other_button": "",
-            "done": "",
             "modal_confirmation": {
-                "title": "",
-                "content": ""
-            }
+                "content": "",
+                "title": ""
+            },
+            "terminated": "",
+            "this_device": "",
+            "title": ""
         },
         "preferences": {
-            "title": "",
-            "description": "",
             "dark_mode": "",
             "dark_mode_description": "",
+            "description": "",
+            "saved": "",
             "time_zone": "",
             "time_zone_description": "",
-            "saved": ""
+            "title": ""
         },
         "title": ""
     },
     "website": {
         "auth": {
-            "discord_missing_code": "",
-            "discord_invalid_code": "",
-            "discord_authorization_failed": "",
-            "discord_not_allowed": "",
             "dashboard": "",
+            "discord_authorization_failed": "",
+            "discord_invalid_code": "",
+            "discord_missing_code": "",
+            "discord_not_allowed": "",
             "login": ""
         },
-        "top_navigation": {
-            "characters": "",
-            "retainer_sales": "",
-            "notifications": "",
-            "download": ""
+        "footer": {
+            "line1": "",
+            "line2": ""
         },
-        "user_navigation": {
-            "manage_account": "",
-            "profile": "",
-            "api_tokens": "",
-            "current_plan": "",
-            "billing_portal": "",
-            "logout": ""
+        "top_navigation": {
+            "download": "",
+            "notifications": "",
+            "players": "",
+            "retainer_sales": ""
         },
         "translation_in_progress": {
             "header": "",
             "text": ""
         },
-        "footer": {
-            "line1": "",
-            "line2": ""
-        }
-    },
-    "character": {
-        "settings": {
-            "character_deleted": "",
-            "title": "",
-            "description": "",
-            "content": "",
-            "delete_character": "",
-            "delete_character_confirmation": "",
-            "delete_character_instructions": ""
-        },
-        "interactions_events": {
-            "events_deleted": "",
-            "interaction_sent": "",
-            "interactions_deleted": "",
-            "interactions": "",
-            "events": "",
-            "no_event": "",
-            "load_more": ""
-        },
-        "navigation": {
-            "interactions_events": "",
-            "classes_currency": "",
-            "settings": ""
-        }
-    },
-    "api_tokens": {
-        "header": "",
-        "create": {
-            "title": "",
-            "description": "",
-            "created": "",
-            "create_button": ""
-        },
-        "shared": {
-            "name": "",
-            "permissions": ""
-        },
-        "manage": {
-            "title": "",
-            "description": "",
-            "last_used": ""
-        },
-        "modal_created": {
-            "title": "",
-            "content": ""
-        },
-        "modal_permissions": {
-            "title": ""
-        },
-        "modal_delete": {
-            "title": "",
-            "content": ""
-        }
-    },
-    "characters": {
-        "header": ""
-    },
-    "retainer_sales": {
-        "header": "",
-        "export_excel_button": "",
-        "no_result": "",
-        "do_search_first": "",
-        "columns": {
-            "datacenter": "",
-            "server": "",
-            "character": "",
-            "date_time": "",
-            "market": "",
-            "quantity_long": "",
-            "item": "",
-            "sold_for": ""
+        "user_navigation": {
+            "api_tokens": "",
+            "billing_portal": "",
+            "current_plan": "",
+            "logout": "",
+            "manage_account": "",
+            "profile": ""
         }
     },
     "welcome": {
-        "title": "",
-        "currently_in_alpha": {
-            "header": "",
-            "text": ""
-        },
         "block1": {
             "header": "",
             "text": ""
@@ -163,7 +241,15 @@
             "header": "",
             "text": ""
         },
+        "currently_in_beta": {
+            "header": "",
+            "text": ""
+        },
         "features": {
+            "dominate_market": {
+                "header": "",
+                "text": ""
+            },
             "dont_miss_a_thing": {
                 "header": "",
                 "text": ""
@@ -172,15 +258,11 @@
                 "header": "",
                 "text": ""
             },
-            "reply_back": {
-                "header": "",
-                "text": ""
-            },
             "integrates": {
                 "header": "",
                 "text": ""
             },
-            "dominate_market": {
+            "reply_back": {
                 "header": "",
                 "text": ""
             },
@@ -188,6 +270,8 @@
                 "header": "",
                 "text": ""
             }
-        }
+        },
+        "title": ""
     }
+}
 }

@@ -29,8 +29,90 @@
             "permissions": "Permissions"
         }
     },
-    "character": {
-        "classes_currency": [],
+    "commands": {
+        "10": "Say",
+        "101": "Crossworld Linkshell 2",
+        "102": "Crossworld Linkshell 3",
+        "103": "Crossworld Linkshell 4",
+        "104": "Crossworld Linkshell 5",
+        "105": "Crossworld Linkshell 6",
+        "106": "Crossworld Linkshell 7",
+        "107": "Crossworld Linkshell 8",
+        "11": "Shout",
+        "12": "Tell",
+        "13": "Tell",
+        "14": "Party",
+        "15": "Alliance",
+        "16": "Linkshell 1",
+        "17": "Linkshell 2",
+        "18": "Linkshell 3",
+        "185": "Quest Messages",
+        "19": "Linkshell 4",
+        "194": "Crafting Messages",
+        "195": "Fishing Messages",
+        "2": "Urgent Messages (Server)",
+        "20": "Linkshell 5",
+        "21": "Linkshell 6",
+        "22": "Linkshell 7",
+        "23": "Linkshell 8",
+        "24": "Free Company",
+        "27": "Novice Network",
+        "28": "Custom Emotes",
+        "29": "Standard Emotes",
+        "3": "Notices (Server)",
+        "30": "Yell",
+        "32": "Crossworld Party",
+        "36": "PVP Team",
+        "37": "Crossworld Linkshell 1",
+        "56": "Echo",
+        "57": "System Messages",
+        "59": "Gathering System Messages",
+        "60": "Error Messages",
+        "61": "NPC Dialog",
+        "62": "Loot Notices",
+        "64": "Character Advancement (XP, Level up, Skill up, Achievements)",
+        "67": "Gathering Messages",
+        "68": "NPC Dialog (Announcement)",
+        "69": "Free Company Announcement",
+        "70": "Free Company Member Login Notifications",
+        "71": "Retainer Sale Notifications",
+        "72": "Periodic Recruitment Notifications",
+        "73": "Sign Messages for PC Targets",
+        "74": "Random Number Messages",
+        "75": "Novice Network Notifications"
+    },
+    "discord_bot": {
+        "replies": {
+            "channel_already_linked": "This channel is already linked with another character. Only one character can be linked per Discord channel.",
+            "help": "Here are the commands available for you: :commands",
+            "invalid_id_provided": "Invalid ID provided.",
+            "mirror_already_disabled": "Mirror events is not active for :player.",
+            "mirror_already_enabled": "Mirror events is already active for :player.",
+            "mirror_disabled": "Mirror events has been disabled for :player. You will no longer receive a copy of all sync'ed interactions and events in this channel. They will still be available on the Minionway website.",
+            "mirror_enabled": "Mirror events has been enabled for :player. You will now receive a copy of all sync'ed interactions and events in this channel.",
+            "no_content_for_command": "You cannot send an empty message using the command :command.",
+            "no_player_associated": "There are no characters associated with this channel so I cannot process your command. Use the \"link\" command to link a character first.",
+            "no_player_found": "No character found in your account with ID :id",
+            "player_already_linked": ":player is already linked with another Discord channel (:server #:channel). Unlink it first by using the unlink command.",
+            "player_linked": ":player is now linked with :server #:channel.",
+            "player_unlinked": ":player is no longer linked with :server #:channel.",
+            "unknown_command": "I don't know what to do with \":command\". Use the \"help\" command to get a list of valid commands.",
+            "unknown_error": "I was not able to process that command but I'm not sure why. Seek support in the Minionway Discord server."
+        }
+    },
+    "player": {
+        "classes_currency": {
+            "nothing_yet": "Nothing yet!"
+        },
+        "discord_integration": {
+            "description": "Link your character with our Discord bot to receive events and notifications and send commands directly in Discord.",
+            "discord_mirror_events": "Mirror events",
+            "discord_mirror_events_description": "Send a copy of all interactions and events to the Discord channel you have linked to this character.",
+            "linked": "Currently linked to <span class=\"font-semibold\">:server #:channel</span>",
+            "not_linked": "This character is currently not linked to any Discord server and channel. To link it, click the link below to invite Minionway in your Discord server. Once Minionway is connected to your server, type \"@Minionway link :player_id\" in the channel you want to use for this character.",
+            "saved": "Saved!",
+            "title": "Discord Integration"
+        },
         "interactions_events": {
             "events": "Events",
             "events_deleted": "All events for :name have been deleted.",
@@ -46,26 +128,26 @@
             "settings": "Settings"
         },
         "settings": {
-            "character_deleted": "The character :name has been deleted from your account",
             "content": "Once this character is deleted, all of its data will be permanently deleted. You can add it again by starting the addon while playing this character.",
-            "delete_character": "Delete Character",
-            "delete_character_confirmation": "Are you sure you want to delete your account? Once your account is deleted, all of data will be permanently deleted. THIS ACTION CANNOT BE UNDONE.",
-            "delete_character_instructions": "Please enter your full Discord handle, <span class=\"font-semibold\">:handle</span> to confirm you would like to permanently delete your account.",
+            "delete_player": "Delete Character",
+            "delete_player_confirmation": "Are you sure you want to delete your account? Once your account is deleted, all of data will be permanently deleted. THIS ACTION CANNOT BE UNDONE.",
+            "delete_player_instructions": "Please enter your full Discord handle, <span class=\"font-semibold\">:handle</span> to confirm you would like to permanently delete your account.",
             "description": "Permanently delete <span class=\"font-semibold\">:name</span> from your account",
+            "player_deleted": "The character :name has been deleted from your account",
             "title": "Delete <span class=\"font-semibold\">:name</span> from your account"
         }
     },
-    "characters": {
+    "players": {
         "header": "Characters"
     },
     "retainer_sales": {
         "columns": {
-            "character": "Character",
             "datacenter": "Datacenter",
             "date_time": "Date/Time",
             "dc_server": "DC/Server",
             "item": "Item",
             "market": "Market",
+            "player": "Character",
             "quantity": "",
             "quantity_long": "Quantity",
             "quantity_short": "Qty",
@@ -136,9 +218,9 @@
             "line2": "Minionway.com and the Minionway logo are ©:year Minionway Software. The Minionway logo was created by the incredibly talented <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
         },
         "top_navigation": {
-            "characters": "Characters",
             "download": "Download",
             "notifications": "Notifications",
+            "players": "Characters",
             "retainer_sales": "Retainer Sales"
         },
         "translation_in_progress": {
@@ -163,9 +245,9 @@
             "header": "There's no easier way to stay connected!",
             "text": "Here are a few reasons why you should use Minionway:"
         },
-        "currently_in_alpha": {
-            "header": "Currently in alpha",
-            "text": "Minionway is available on invite only for the moment. Interested? Join us on Discord!"
+        "currently_in_beta": {
+            "header": "Currently in beta",
+            "text": "Minionway is currently in beta and can be used for free during that period. Interested? Just login and start enjoying Minionway today!"
         },
         "features": {
             "dominate_market": {
