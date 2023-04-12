@@ -153,6 +153,7 @@
             "market": "",
             "player": "",
             "quantity_long": "",
+            "quantity_short": "",
             "server": "",
             "sold_for": ""
         },

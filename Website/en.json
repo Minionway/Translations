@@ -154,7 +154,6 @@
             "item": "Item",
             "market": "Market",
             "player": "Character",
-            "quantity": "",
             "quantity_long": "Quantity",
             "quantity_short": "Qty",
             "server": "Server",
