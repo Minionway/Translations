@@ -1,39 +1,36 @@
 {
     "api_tokens": {
         "create": {
-            "create_button": "",
-            "created": "",
-            "description": "",
-            "title": ""
+            "create_button": "Crear",
+            "created": "¡Creado!",
+            "description": "Los tokens API permiten a servicios third-party autenticarse con nuestra aplicación en su nombre.",
+            "title": "Crear token API"
         },
-        "header": "",
+        "header": "Tokens API",
         "manage": {
-            "description": "",
-            "last_used": "",
-            "title": ""
+            "deleted": "¡Eliminado!",
+            "description": "Puedes eliminar tus tokens si ya no son necesarios.",
+            "last_used": "Último uso :last_used_ago",
+            "title": "Administrar tokens API"
         },
         "modal_created": {
-            "content": "",
-            "title": ""
+            "content": "Por favor guarda tu nuevo token API. Por tu seguridad no se mostrará nuevamente.",
+            "title": "Token API Creado"
         },
         "modal_delete": {
-            "content": "",
-            "title": ""
+            "content": "¿Estás seguro que deseas eliminar este token API? ESTA ACCIÓN NO SE PUEDE DESHACER.",
+            "title": "Eliminar token API"
         },
         "modal_permissions": {
-            "title": ""
+            "title": "Permisos Token API"
         },
         "shared": {
-            "name": "",
-            "permissions": ""
+            "name": "Nombre",
+            "permissions": "Permisos"
         }
     },
     "commands": {
         "10": "Say",
-        "10000": "Trade Request",
-        "10001": "Party Invite",
-        "10002": "Party Teleport",
-        "10003": "Free Company Invite",
         "101": "Crossworld Linkshell 2",
         "102": "Crossworld Linkshell 3",
         "103": "Crossworld Linkshell 4",
@@ -55,8 +52,6 @@
         "195": "Fishing Messages",
         "2": "Urgent Messages (Server)",
         "20": "Linkshell 5",
-        "20000": "FFXIVMinion Started",
-        "20001": "FFXIVMinion Stopped",
         "21": "Linkshell 6",
         "22": "Linkshell 7",
         "23": "Linkshell 8",
@@ -88,195 +83,198 @@
     },
     "discord_bot": {
         "replies": {
-            "channel_already_linked": "",
-            "help": "",
-            "invalid_id_provided": "",
-            "mirror_already_disabled": "",
-            "mirror_already_enabled": "",
-            "mirror_disabled": "",
-            "mirror_enabled": "",
-            "no_content_for_command": "",
-            "no_player_associated": "",
-            "player_already_linked": "",
-            "player_linked": "",
-            "player_unlinked": "",
-            "unknown_error": ""
+            "channel_already_linked": "Este canal ya está asociado con otro personaje. Solo un personaje puede ser asociado por canal de discord.",
+            "help": "Comandos disponibles: :commands",
+            "invalid_id_provided": "ID inválido ingresado.",
+            "mirror_already_disabled": "Eventos Mirror no está activo para :player.",
+            "mirror_already_enabled": "Eventos Mirror ya está activo para :player.",
+            "mirror_disabled": "Eventos Mirror ha sido deshabilitado para :player. Ya no recibirás una copia de todas las interacciones y eventos sincronizadas en este canal. Seguirán estando disponible en el sitio web Minionway.",
+            "mirror_enabled": "Eventos Mirror ha sido habilitado para :player. Ahora recibirás una copia de todas las interacciones y eventos sincronizados en este canal.",
+            "no_content_for_command": "No puedes enviar un mensaje en blanco usando el comando :command.",
+            "no_player_associated": "No puedo procesar tu comando debido a que no hay personajes asociados con este canal. Usa el comando \"link\" para enlazar un personaje primero.",
+            "no_player_found": "No se encontró un personaje en tu cuenta con ID :id",
+            "player_already_linked": ":player ya está enlazado con otro canal de Discord (:server #:channel). Desenlázalo primero utilizando el comando unlink.",
+            "player_linked": ":player ahora está enlazado con :server #:channel.",
+            "player_unlinked": ":player ya no está enlazado con :server #:channel.",
+            "unknown_command": "No sé qué hacer con \":command\". Usa el comando \"help\" para obtener un listado de comandos válidos.",
+            "unknown_error": "No pude procesar el comando pero no estoy seguro por qué. Busca soporte en el servidor Discord de Minionway."
         }
     },
     "player": {
         "classes_currency": {
-            "nothing_yet": ""
+            "nothing_yet": "¡Nada aún!"
         },
         "discord_integration": {
-            "description": "",
-            "discord_mirror_events": "",
-            "discord_mirror_events_description": "",
-            "discord_mirror_mode": "",
-            "discord_mirror_mode_description": "",
-            "linked": "",
-            "not_linked": "",
-            "saved": "",
-            "title": ""
+            "description": "Enlaza tu personaje con nuestro bot de Discord para recibir eventos y notificaciones y enviar comandos directamente desde Discord.",
+            "discord_mirror_events": "Mirror events",
+            "discord_mirror_events_description": "Envia una copia de todas las interacciones y eventos al canal de Discord enlazado a tu personaje.",
+            "linked": "Actualmente enlazado a <span class=\"font-semibold\">:server #:channel</span>",
+            "not_linked": "Este personaje no está actualmente enlazado a ningún canal de Discord. Para enlazarlo, presiona el enlace a continuación para invitar a Minionway a tu servidor de Discord. Una vez que Minionway esté conectado a tu servidor, escribe \"@Minionway link :player_id\" en el canal donde quieras usar este personaje.",
+            "saved": "¡Guardado!",
+            "title": "Integración con Discord"
         },
         "interactions_events": {
-            "events": "",
-            "events_deleted": "",
-            "interaction_sent": "",
-            "interactions": "",
-            "interactions_deleted": "",
-            "load_more": "",
-            "no_event": ""
+            "events": "Eventos",
+            "events_deleted": "Todos los eventos para :name han sido eliminados.",
+            "interaction_sent": "Tu mensaje \":message\" será enviado la próxima vez que el addon se conecte al servidor de Minionway, lo cual puede tomar hasta 30 segundos.",
+            "interactions": "Interacciones",
+            "interactions_deleted": "Todas las interacciones para :name han sido eliminadas.",
+            "load_more": "Cargar más",
+            "no_event": "¡Nada aún!"
         },
         "navigation": {
-            "classes_currency": "",
-            "interactions_events": "",
-            "settings": ""
+            "classes_currency": "Clases, Jobs & Currency",
+            "interactions_events": "Interacciones & Eventos",
+            "settings": "Ajustes"
         },
         "settings": {
-            "content": "",
-            "delete_player": "",
-            "delete_player_confirmation": "",
-            "delete_player_instructions": "",
-            "description": "",
-            "player_deleted": "",
-            "title": ""
+            "content": "Una vez que el personaje sea eliminado, todos sus datos serán permanentemente eliminados. Puedes agregarlo nuevamente al iniciar el addon mientras juegas con el personaje.",
+            "delete_player": "Eliminar personaje",
+            "delete_player_confirmation": "¿Estás seguro que deseas eliminar tu cuenta? Al eliminar tu cuenta, toda la información asociada será permanentemente eliminada. ESTA ACCIÓN NO SE PUEDE DESHACER.",
+            "delete_player_instructions": "Por favor ingresa tu handle de Discord, <span class=\"font-semibold\">:handle</span> para confirmar que deseas eliminar tu cuenta de forma permanente.",
+            "description": "Eliminar de forma permanente <span class=\"font-semibold\">:name</span> de tu cuenta",
+            "player_deleted": "El personaje :name ha sido eliminado de tu cuenta",
+            "title": "Eliminar <span class=\"font-semibold\">:name</span> de tu cuenta"
         }
     },
     "players": {
-        "header": ""
+        "header": "Personajes"
     },
     "retainer_sales": {
         "columns": {
-            "datacenter": "",
-            "date_time": "",
-            "item": "",
-            "market": "",
-            "player": "",
-            "quantity_long": "",
-            "server": "",
-            "sold_for": ""
+            "datacenter": "Datacenter",
+            "date_time": "Fecha/Hora",
+            "dc_server": "DC/Servidor",
+            "item": "Item",
+            "market": "Mercado",
+            "player": "Personaje",
+            "quantity": "",
+            "quantity_long": "Cantidad",
+            "quantity_short": "Cant.",
+            "server": "Servidor",
+            "sold_for": "Vendido por"
         },
-        "do_search_first": "",
-        "export_excel_button": "",
-        "header": "",
-        "no_result": ""
+        "do_search_first": "Nada aún. Realiza una búsqueda primero.",
+        "export_excel_button": "Exportar a Excel",
+        "header": "Ventas de Retainers",
+        "no_result": "No hay ventas para el periodo de tiempo seleccionado."
     },
     "shared": {
-        "cancel_button": "",
-        "clear_button": "",
-        "close_button": "",
-        "delete_button": "",
-        "gil": "",
-        "invalid_discord_handle": "",
-        "reset_button": "",
-        "save_button": "",
-        "search_button": ""
+        "cancel_button": "Cancelar",
+        "clear_button": "Limpiar",
+        "close_button": "Cerrar",
+        "delete_button": "Eliminar",
+        "gil": "gil",
+        "invalid_discord_handle": "Handle de Discord inválido",
+        "reset_button": "Reiniciar",
+        "save_button": "Guardar",
+        "search_button": "Buscar"
     },
     "user": {
         "delete_account": {
-            "content": "",
-            "delete_account": "",
-            "delete_account_confirmation": "",
-            "delete_account_instructions": "",
-            "deleted": "",
-            "description": ""
+            "content": "Una vez que tu cuenta es eliminada, todos sus recursos y datos serán eliminados de forma permanente. Antes de eliminar tu cuenta, por favor descarga toda la información que desees mantener.",
+            "delete_account": "Eliminar cuenta",
+            "delete_account_confirmation": "¿Estás seguro que deseas eliminar tu cuenta? Una vez que tu cuenta sea eliminada, todos sus recursos y datos serán eliminados de forma permanente. ESTA ACCIÓN NO SE PUEDE DESHACER.",
+            "delete_account_instructions": "Por favor ingresa tu handle de Discord, <span class=\"font-semibold\">:handle</span> para confirmar que deseas eliminar tu cuenta de forma permanente.",
+            "deleted": "Tu cuenta ha sido eliminada.",
+            "description": "Eliminar tu cuenta de forma permanente."
         },
         "other_sessions": {
-            "content": "",
-            "description": "",
-            "done": "",
-            "last_active": "",
-            "logout_other_button": "",
+            "content": "Si es necesario, cierra sesión en todos tus dispositivos. A continuación se listan alguna de tus sesiones recientes; sin embargo, la lista puede no ser exhaustiva. Si crees que tu cuenta ha sido comprometida, deberías actualizar tu contraseña de Discord.",
+            "description": "Administra y cierra tus sesiones activas en otros navegadores y dispositivos.",
+            "done": "¡Listo!",
+            "last_active": "Última sesión activa",
+            "logout_other_button": "Cerrar sesión en otros navegadores",
             "modal_confirmation": {
-                "content": "",
-                "title": ""
+                "content": "Por favor ingresa tu handle de Discord, <span class=\"font-semibold\">:discord_handle</span> para confirmar que deseas cerrar tu sesión en todos tus dispositivos.",
+                "title": "Cerrar sesión en otros navegadores"
             },
-            "terminated": "",
-            "this_device": "",
-            "title": ""
+            "terminated": "Tus otras sesiones han sido terminadas.",
+            "this_device": "Este dispositivo",
+            "title": "Sesiones de navegador"
         },
         "preferences": {
-            "dark_mode": "",
-            "dark_mode_description": "",
-            "description": "",
-            "saved": "",
-            "time_zone": "",
-            "time_zone_description": "",
-            "title": ""
+            "dark_mode": "Modo oscuro",
+            "dark_mode_description": "Activar modo oscuro.",
+            "description": "Actualiza las preferencias de tu cuenta",
+            "saved": "¡Guardado!",
+            "time_zone": "Zona horaria",
+            "time_zone_description": "Al mostrar fechas, usar la siguiente zona horaria.",
+            "title": "Preferencias"
         },
-        "title": ""
+        "title": "Perfil"
     },
     "website": {
         "auth": {
-            "dashboard": "",
-            "discord_authorization_failed": "",
-            "discord_invalid_code": "",
-            "discord_missing_code": "",
-            "discord_not_allowed": "",
-            "login": ""
+            "dashboard": "Panel",
+            "discord_authorization_failed": "La autorización falló.",
+            "discord_invalid_code": "El código de autorización es inválido.",
+            "discord_missing_code": "No se encuentra el código de autorización.",
+            "discord_not_allowed": "No tienes permitido iniciar sesión.",
+            "login": "Iniciar sesión con Discord"
         },
         "footer": {
-            "line1": "",
-            "line2": ""
+            "line1": "Minionway no está afiliado, asociado ni respaldado por MMOMinion (Raving Lunatic Sp. z o.o.) y/o Final Fantasy XIV (SQUARE ENIX CO., LTD.). Final Fantasy XIV © 2010-:year SQUARE ENIX CO., LTD. Todas las marcas registradas son propiedad de sus respectivos dueños.",
+            "line2": "Minionway.com y el logo de Minionway son ©:year Minionway Software. El logo de Minionway fue creado por el increiblemente talentoso <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
         },
         "top_navigation": {
-            "download": "",
-            "notifications": "",
-            "players": "",
-            "retainer_sales": ""
+            "download": "Descargar",
+            "notifications": "Notificaciones",
+            "players": "Personajes",
+            "retainer_sales": "Ventas de Retainers"
         },
         "translation_in_progress": {
-            "header": "",
-            "text": ""
+            "header": "Traducción en progreso",
+            "text": "La traducción de Minionway es realizada por la comunidad. Si deseas ayudar, únete a #translation en nuestro Discord."
         },
         "user_navigation": {
-            "api_tokens": "",
-            "billing_portal": "",
-            "current_plan": "",
-            "logout": "",
-            "manage_account": "",
-            "profile": ""
+            "api_tokens": "Tokens API",
+            "billing_portal": "Portal de facturación",
+            "current_plan": "Plan actual: :plan_name",
+            "logout": "Cerrar sesión",
+            "manage_account": "Administrar cuenta",
+            "profile": "Perfil"
         }
     },
     "welcome": {
         "block1": {
-            "header": "",
-            "text": ""
+            "header": "¡Bienvenido a Minionway!",
+            "text": "Lleva tu juego de FFXIV al siguiente nivel con Minionway. ¡Monitorea tus personajes, interactua con jugadores, revisa las ventas de tus retainers y mucho más!"
         },
         "block2": {
-            "header": "",
-            "text": ""
+            "header": "¡No hay mejor forma de estar conectado!",
+            "text": "Algunas características por las que deberías usar Minionway:"
         },
         "currently_in_beta": {
-            "header": "",
-            "text": ""
+            "header": "Actualmente en beta",
+            "text": "Minionway se encuentra actualmente en beta y puede ser usado gratuitamente durante ese periodo. ¿Estás interesado? ¡Inicia sesión y disfruta Minionway hoy mismo!"
         },
         "features": {
             "dominate_market": {
-                "header": "",
-                "text": ""
+                "header": "Domina el mercado",
+                "text": "Monitorea todas las ventas de tus retainers. Genera y exporta reportes."
             },
             "dont_miss_a_thing": {
-                "header": "",
-                "text": ""
+                "header": "No te pierdas nada",
+                "text": "Mantén vigilado a minion en tiempo real y asegúrate de que siempre sea productivo."
             },
             "follow_conversation": {
-                "header": "",
-                "text": ""
+                "header": "Sigue la conversación",
+                "text": "Ve lo que ocurre a tu alrededor, en tu Free Company o en tus Linkshells."
             },
             "integrates": {
-                "header": "",
-                "text": ""
+                "header": "Integrado con FFXIVMinion.",
+                "text": "Funciona con addons the FFXIVMinion. Incluso puedes monitorear/controlar algunos directamente en Minionway."
             },
             "reply_back": {
-                "header": "",
-                "text": ""
+                "header": "Responde mensajes",
+                "text": "Envia mensajes o responde a cualquier /say, /fc, /tell y más."
             },
             "stay_informed": {
-                "header": "",
-                "text": ""
+                "header": "Mantente siempre informado",
+                "text": "Recibe notificaciones en Discord o en tu correo de eventos que te importan."
             }
         },
-        "title": ""
+        "title": "Minionway - ¡Lleva tu juego de FFXIV al siguiente nivel!"
     }
 }
