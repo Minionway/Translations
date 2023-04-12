@@ -125,6 +125,7 @@
             "interaction_sent": "Tu mensaje \":message\" será enviado la próxima vez que el addon se conecte al servidor de Minionway, lo cual puede tomar hasta 30 segundos.",
             "interactions": "Interacciones",
             "interactions_deleted": "Todas las interacciones para :name han sido eliminadas.",
+            "new_message": "Nuevo mensaje",
             "load_more": "Cargar más",
             "no_event": "¡Nada aún!"
         },

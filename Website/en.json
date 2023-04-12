@@ -126,6 +126,7 @@
             "interactions": "Interactions",
             "interactions_deleted": "All interactions for :name have been deleted.",
             "load_more": "Load more",
+            "new_message": "New Message",
             "no_event": "Nothing yet!"
         },
         "navigation": {

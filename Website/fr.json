@@ -119,11 +119,12 @@
             "title": ""
         },
         "interactions_events": {
-            "events": "",
+            "events": "Événements",
             "events_deleted": "",
             "interaction_sent": "",
-            "interactions": "",
+            "interactions": "Intéractions",
             "interactions_deleted": "",
+            "new_message": "Nouveau message",
             "load_more": "",
             "no_event": ""
         },
