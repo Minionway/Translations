@@ -1,39 +1,39 @@
 {
     "api_tokens": {
         "create": {
-            "create_button": "",
-            "created": "",
-            "description": "",
-            "title": ""
+            "create_button": "作成",
+            "created": "作成しました",
+            "description": "APIトークンは、サードパーティーのサービスがお客様に代わって当社のアプリケーションで認証することを可能にします。",
+            "title": "APIトークンを作成"
         },
-        "header": "",
+        "header": "APIトークン",
         "manage": {
-            "description": "",
-            "last_used": "",
-            "title": ""
+            "description": "既存のトークンが不要になった場合は、削除することができます。",
+            "last_used": "最終使用日 :last_used_ago",
+            "title": "APIトークンの管理"
         },
         "modal_created": {
-            "content": "",
-            "title": ""
+            "content": "新しいAPIトークンをコピーしてください。セキュリティのため、再度表示されることはありません。",
+            "title": "APIトークンを作成しました"
         },
         "modal_delete": {
-            "content": "",
-            "title": ""
+            "content": "このAPIトークンを本当に削除しますか？この操作は元に戻せません。",
+            "title": "APIトークンの削除"
         },
         "modal_permissions": {
-            "title": ""
+            "title": "APIトークンの権限について"
         },
         "shared": {
-            "name": "",
-            "permissions": ""
+            "name": "名前",
+            "permissions": "権限"
         }
     },
     "commands": {
         "10": "Say",
-        "10000": "Trade Request",
-        "10001": "Party Invite",
-        "10002": "Party Teleport",
-        "10003": "Free Company Invite",
+        "10000": "トレードリクエスト",
+        "10001": "パーティ勧誘",
+        "10002": "パーティテレポート",
+        "10003": "FC加入招待",
         "101": "Crossworld Linkshell 2",
         "102": "Crossworld Linkshell 3",
         "103": "Crossworld Linkshell 4",
@@ -53,18 +53,18 @@
         "19": "Linkshell 4",
         "194": "Crafting Messages",
         "195": "Fishing Messages",
-        "2": "Urgent Messages (Server)",
+        "2": "緊急メッセージ (Server)",
         "20": "Linkshell 5",
-        "20000": "FFXIVMinion Started",
-        "20001": "FFXIVMinion Stopped",
+        "20000": "FFXIVMinion スタート",
+        "20001": "FFXIVMinion ストップ",
         "21": "Linkshell 6",
         "22": "Linkshell 7",
         "23": "Linkshell 8",
         "24": "Free Company",
-        "27": "Novice Network",
+        "27": "ビギナーチャット",
         "28": "Custom Emotes",
         "29": "Standard Emotes",
-        "3": "Notices (Server)",
+        "3": "お知らせ (Server)",
         "30": "Yell",
         "32": "Crossworld Party",
         "36": "PVP Team",
@@ -74,211 +74,212 @@
         "59": "Gathering System Messages",
         "60": "Error Messages",
         "61": "NPC Dialog",
-        "62": "Loot Notices",
-        "64": "Character Advancement (XP, Level up, Skill up, Achievements)",
+        "62": "ロット関連",
+        "64": "キャラクター関連（経験値、レベルアップ、スキル取得、アチーブメント）",
         "67": "Gathering Messages",
-        "68": "NPC Dialog (Announcement)",
-        "69": "Free Company Announcement",
-        "70": "Free Company Member Login Notifications",
-        "71": "Retainer Sale Notifications",
-        "72": "Periodic Recruitment Notifications",
-        "73": "Sign Messages for PC Targets",
-        "74": "Random Number Messages",
-        "75": "Novice Network Notifications"
+        "68": "NPC Dialog (アナウンス)",
+        "69": "Free Company アナウンス",
+        "70": "Free Company メンバーログイン通知",
+        "71": "リテイナーの販売通知",
+        "72": "パーティ募集の通知",
+        "73": "ターゲット通知",
+        "74": "ダイス",
+        "75": "ビギナーチャンネル通知"
     },
     "discord_bot": {
         "replies": {
-            "channel_already_linked": "",
-            "help": "",
-            "invalid_id_provided": "",
-            "mirror_already_disabled": "",
-            "mirror_already_enabled": "",
-            "mirror_disabled": "",
-            "mirror_enabled": "",
-            "no_content_for_command": "",
-            "no_player_associated": "",
-            "player_already_linked": "",
-            "player_linked": "",
-            "player_unlinked": "",
-            "unknown_error": ""
+            "channel_already_linked": "このチャンネルはすでに他のキャラクターとリンクしています。1つのDiscordチャンネルにつき、1人のキャラクターしかリンクさせることができません。",
+            "help": "以下は、利用可能なコマンドです: :commands",
+            "invalid_id_provided": "提供されたIDが無効です",
+            "mirror_already_disabled": "Discordへのミラーイベントは、 :playerには有効ではありません。",
+            "mirror_already_enabled": "Discordへのミラーイベントは、 :playerに対して既に有効です。",
+            "mirror_disabled": "Discordへのミラーイベントは :playerで無効化されました。このチャンネルで同期されたすべてのインタラクションやイベントのコピーを受け取ることができなくなりました。Minionwayのウェブサイトでは、引き続き利用可能です。",
+            "mirror_enabled": "Discordへのミラーイベントが :playerで有効になりました。このチャンネルで同期されたすべてのインタラクションとイベントのコピーを受け取ることができるようになりました。",
+            "no_content_for_command": "コマンド :commandを使って、空のメッセージを送信することはできません。",
+            "no_player_associated": "このチャンネルにはキャラクターが存在しないため、コマンドを処理することができません。まず、キャラクターをリンクさせるために、\"link\"コマンドを使用してください。",
+            "player_already_linked": ":player はすでに他のDiscordチャンネル (:server #:channel)とリンクされています。まずunlinkコマンドでリンクを解除してください。",
+            "player_linked": "playerが :server #:channelと連動するようになりました。\"help\"コマンドを使用して、有効なコマンドのリストを取得します。",
+            "player_unlinked": "プレイヤーは、すでに  :server #:channelとリンクしていません。",
+            "unknown_error": "原因不明のエラーのため、コマンドを処理することができませんでした。Minionway Discordサーバーでサポートを求めてください。"
         }
     },
     "player": {
         "classes_currency": {
-            "nothing_yet": ""
+            "nothing_yet": "まだなにもありません。"
         },
         "discord_integration": {
-            "description": "",
-            "discord_mirror_events": "",
-            "discord_mirror_events_description": "",
+            "description": "キャラクターをDiscordボットと連携させ、イベントや通知を受け取ったり、Discordで直接コマンドを送信することができます。",
+            "discord_mirror_events": "ミラーイベント",
+            "discord_mirror_events_description": "このキャラクターにリンクしたDiscordチャンネルに、すべてのログとイベントのコピーを送信します。",
             "discord_mirror_mode": "",
             "discord_mirror_mode_description": "",
-            "linked": "",
-            "not_linked": "",
-            "saved": "",
-            "title": ""
+            "linked": "現在、<span class=\"font-semibold\">:server #:channel</span>にリンクされています。",
+            "not_linked": "このキャラクターは現在、どのDiscordサーバーやチャンネルにもリンクされていません。リンクさせるには、以下のリンクをクリックして、あなたのDiscordサーバーにMinionwayを招待してください。Minionwayがあなたのサーバーに接続されたら、このキャラクターに使用したいチャンネルに \"@Minionway link :player_id\" と入力してください。",
+            "saved": "保存しました",
+            "title": "Deiscordとの連携"
         },
         "interactions_events": {
-            "events": "",
-            "events_deleted": "",
-            "interaction_sent": "",
-            "interactions": "",
-            "interactions_deleted": "",
-            "new_message": "",
-            "load_more": "",
-            "no_event": ""
+            "events": "イベント",
+            "events_deleted": " :name のイベントはすべて削除されました。",
+            "interaction_sent": "あなたのメッセージ \":message\" は、アドオンが次にMinionwayサーバーに接続するときに送信されます（最大30秒かかります）。",
+            "interactions": "インタラクション",
+            "interactions_deleted": ":nameのインタラクションはすべて削除されました。",
+            "new_message": "新規メッセージ",
+            "load_more": "更に読み込む",
+            "no_event": "まだなにもありません"
         },
         "navigation": {
-            "classes_currency": "",
-            "interactions_events": "",
-            "settings": ""
+            "classes_currency": "クラス・ジョブ・通貨",
+            "interactions_events": "チャット・イベント",
+            "settings": "設定"
         },
         "settings": {
-            "content": "",
-            "delete_player": "",
-            "delete_player_confirmation": "",
-            "delete_player_instructions": "",
-            "description": "",
-            "player_deleted": "",
-            "title": ""
+            "content": "このキャラクターを削除すると、そのデータはすべて永久に削除されます。このキャラクターをプレイ中にアドオンを起動することで、再び追加することができます。",
+            "delete_player": "キャラクターの削除",
+            "delete_player_confirmation": "本当にアカウントを削除しますか？アカウントを削除すると、すべてのデータは永久に削除されます。この操作は元に戻せません。",
+            "delete_player_instructions": "アカウントを永久に削除する場合、Discordのフルハンドル、<span class=\"font-semibold\" >:handle</span> を入力して確認してください。",
+            "description": "アカウントから<span class=\"font-semibold\">:name</span> を永久に削除する。",
+            "player_deleted": "アカウントからキャラクター :nameが削除されました。",
+            "title": "アカウントから<span class=\"font-semibold\">:name</span> を削除する"
         }
     },
     "players": {
-        "header": ""
+        "header": "キャラクター"
     },
     "retainer_sales": {
         "columns": {
-            "datacenter": "",
-            "date_time": "",
-            "item": "",
-            "market": "",
-            "player": "",
-            "quantity_long": "",
-            "quantity_short": "",
-            "server": "",
-            "sold_for": ""
+            "datacenter": "DC",
+            "date_time": "日時",
+            "item": "アイテム",
+            "market": "マーケット",
+            "player": "キャラクター",
+            "quantity_long": "数量",
+            "quantity_short": "数量",
+            "server": "サーバー",
+            "sold_for": "販売価格"
         },
-        "do_search_first": "",
-        "export_excel_button": "",
-        "header": "",
-        "no_result": ""
+        "do_search_first": "まだ何もありません。まずは検索してみてください。",
+        "export_excel_button": "エクセルにエクスポート",
+        "header": "リテイナー販売履歴",
+        "no_result": "選択した期間に表示する売上がありません"
     },
     "shared": {
-        "cancel_button": "",
-        "clear_button": "",
-        "close_button": "",
-        "delete_button": "",
-        "gil": "",
-        "invalid_discord_handle": "",
-        "reset_button": "",
-        "save_button": "",
-        "search_button": ""
+        "cancel_button": "キャンセル",
+        "clear_button": "クリア",
+        "close_button": "閉じる",
+        "delete_button": "削除",
+        "gil": "ギル",
+        "invalid_discord_handle": "無効なDiscordハンドルネーム",
+        "reset_button": "リセット",
+        "save_button": "保存",
+        "search_button": "検索"
     },
     "user": {
         "delete_account": {
-            "content": "",
-            "delete_account": "",
-            "delete_account_confirmation": "",
-            "delete_account_instructions": "",
-            "deleted": "",
-            "description": ""
+            "content": "アカウントが削除されると、そのリソースとデータはすべて永久に削除されます。アカウントを削除する前に、保持したいデータまたは情報をダウンロードしてください。",
+            "delete_account": "アカウント削除",
+            "delete_account_confirmation": "本当にアカウントを削除しますか？アカウントが削除されると、そのリソースとデータはすべて永久に削除されます。この操作は元に戻せません。",
+            "delete_account_instructions": "アカウントを永久に削除します。Discordのフルハンドル、<span class=\"font-semibold\" >:handle</span> を入力して確認してください。",
+            "deleted": "アカウントは削除されました。",
+            "description": "アカウントを永久に削除する"
         },
         "other_sessions": {
-            "content": "",
-            "description": "",
-            "done": "",
-            "last_active": "",
-            "logout_other_button": "",
+            "content": "必要であれば、お使いのすべてのデバイスで、他のすべてのブラウザセッションからログアウトすることができます。最近のセッションの一部を以下に示しますが、このリストですべてを網羅できるわけではありません。アカウントが侵害されたと感じた場合は、Discordのパスワードも更新する必要があります。",
+            "description": "他のブラウザやデバイスでのアクティブなセッションを管理し、ログアウトすることができます。",
+            "done": "完了",
+            "last_active": "最終アクティブ",
+            "logout_other_button": "他のブラウザセッションをログアウトする",
             "modal_confirmation": {
-                "content": "",
-                "title": ""
+                "content": "あなたの全Discordハンドル、<span class=\"font-semibold\" >:discord_handle</span> を入力して、あなたのすべてのデバイスで他のブラウザセッションからログアウトすることを確認してください。",
+                "title": "他のブラウザセッションをログアウトする"
             },
-            "terminated": "",
-            "this_device": "",
-            "title": ""
+            "terminated": "他のセッションは終了しています。",
+            "this_device": "このデバイス",
+            "title": "ブラウザーセッション"
         },
         "preferences": {
-            "dark_mode": "",
-            "dark_mode_description": "",
-            "description": "",
-            "saved": "",
-            "time_zone": "",
-            "time_zone_description": "",
-            "title": ""
+            "dark_mode": "ダークモード",
+            "dark_mode_description": "ダークモードが有効です",
+            "description": "アカウントの設定を更新",
+            "saved": "保存しました",
+            "time_zone": "タイムゾーン",
+            "time_zone_description": "日付を、このタイムゾーンで表示します。",
+            "title": "環境設定"
         },
-        "title": ""
+        "title": "プロフィール"
     },
     "website": {
         "auth": {
-            "dashboard": "",
-            "discord_authorization_failed": "",
-            "discord_invalid_code": "",
-            "discord_missing_code": "",
-            "discord_not_allowed": "",
-            "login": ""
+            "dashboard": "ダッシュボード",
+            "discord_authorization_failed": "認証に失敗しました",
+            "discord_invalid_code": "認証コードが無効です",
+            "discord_missing_code": "認証コードが入力されていません",
+            "discord_not_allowed": "ログインできません",
+            "login": "Discordでログインしてください"
         },
         "footer": {
-            "line1": "",
-            "line2": ""
+            "line1": "Minionwayは、MMOMinion(Raving Lunatic Sp. z o.o.)およびFinal Fantasy XIV (SQUARE ENIX CO., LTD.) と提携、関連、支持するものではありません。ファイナルファンタジーXIV © 2010-:year SQUARE ENIX CO., LTD. すべての商標は、それぞれの所有者に帰属します。",
+            "line2": "Minionway.com and the Minionway logo are ©:year Minionway Software. The Minionway logo was created by the incredibly talented <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
+
         },
         "top_navigation": {
-            "download": "",
-            "notifications": "",
-            "players": "",
-            "retainer_sales": ""
+            "download": "ダウンロード",
+            "notifications": "通知",
+            "players": "キャラクター",
+            "retainer_sales": "リテイナー販売履歴"
         },
         "translation_in_progress": {
-            "header": "",
-            "text": ""
+            "header": "翻訳中",
+            "text": "Minionwayの翻訳は、コミュニティによって行われています。手伝いたい方は、Discordの#translationに参加してください。"
         },
         "user_navigation": {
-            "api_tokens": "",
-            "billing_portal": "",
-            "current_plan": "",
-            "logout": "",
-            "manage_account": "",
-            "profile": ""
+            "api_tokens": "APIトークン",
+            "billing_portal": "課金ポータルサイト",
+            "current_plan": "現在のプラン: :plan_name",
+            "logout": "ログアウト",
+            "manage_account": "アカウントの管理",
+            "profile": "プロフィール"
         }
     },
     "welcome": {
         "block1": {
-            "header": "",
-            "text": ""
+            "header": "Minionwayへようこそ！",
+            "text": "MinionwayでFFXIVのゲームを次のレベルに引き上げましょう。キャラクターを監視し、プレイヤーと交流し、リテーナーの売上を見守るなど、さまざまなことができます！"
         },
         "block2": {
-            "header": "",
-            "text": ""
+            "header": "これ以上ないほど簡単な方法で接続を維持することができます！",
+            "text": "ここでは、Minionwayを使うべき理由をいくつか紹介します："
         },
         "currently_in_beta": {
-            "header": "",
-            "text": ""
+            "header": "現在、ベータ版として公開中",
+            "text": "Minionwayは現在ベータ版で、期間中は無料で使用することができます。ご興味がおありですか？ログインして、今からMinionwayを楽しんでください！"
         },
         "features": {
             "dominate_market": {
-                "header": "",
-                "text": ""
+                "header": "市場をコントロールする",
+                "text": "リテイナーの売上をすべて監視することができます。レポートを作成し、エクスポートします。"
             },
             "dont_miss_a_thing": {
-                "header": "",
-                "text": ""
+                "header": "お見逃しなく",
+                "text": "ミニオンをリアルタイムで監視し、常に生産性を高めることができます。"
             },
             "follow_conversation": {
-                "header": "",
-                "text": ""
+                "header": "会話の流れを追う",
+                "text": "あなたの周りのフリーカンパニーやリンクシェルで何が起きているのかを確認することができます。"
             },
             "integrates": {
-                "header": "",
-                "text": ""
+                "header": "FFXIVMinionに統合",
+                "text": "他のすべてのFFXIVMinionアドオンと連動します。Minionwayで直接監視/制御できるものもあります。"
             },
             "reply_back": {
-                "header": "",
-                "text": ""
+                "header": "返信元",
+                "text": "/say、/fc、/tellなどのメッセージを送ったり、返信したりすることができます。"
             },
             "stay_informed": {
-                "header": "",
-                "text": ""
+                "header": "外出先でも情報収集ができます",
+                "text": "あなたにとって重要なイベントを、Discordやメールでお知らせします。"
             }
         },
-        "title": ""
+        "title": "Minionway - あなたのFFXIVのゲーム体験を次のステージに！"
     }
 }
