@@ -5,14 +5,14 @@ local multiRefObjects = {
 local obj1 = {
 	["buttons"] = {
 		["close_window"] = "Close this window";
-		["config"] = "Config";
+		["config"] = "設定";
 		["start"] = "Start";
 		["stop"] = "Stop";
 	};
 	["chatline"] = {
-		["alliance"] = "Alliance";
-		["character_advancement"] = "Character Advancement (XP, Level up, Skill up, Achievements)";
-		["crafting_messages"] = "Crafting Messages";
+		["alliance"] = "アライアンス";
+		["character_advancement"] = "キャラクター情報（経験値、レベルアップ、スキル取得、アチーブメント）";
+		["crafting_messages"] = "クラフトダイアログ";
 		["crossworld_linkshell1"] = "Crossworld Linkshell 1";
 		["crossworld_linkshell2"] = "Crossworld Linkshell 2";
 		["crossworld_linkshell3"] = "Crossworld Linkshell 3";
@@ -22,15 +22,15 @@ local obj1 = {
 		["crossworld_linkshell7"] = "Crossworld Linkshell 7";
 		["crossworld_linkshell8"] = "Crossworld Linkshell 8";
 		["crossworld_party"] = "Crossworld Party";
-		["custom_emotes"] = "Custom Emotes";
-		["echo"] = "Echo";
-		["error_messages"] = "Error Messages";
-		["fishing_messages"] = "Fishing Messages";
-		["free_company"] = "Free Company";
-		["free_company_announcement"] = "Free Company Announcement";
-		["free_company_logins"] = "Free Company Member Login Notifications";
-		["gathering_messages"] = "Gathering Messages";
-		["gathering_system_messages"] = "Gathering System Messages";
+		["custom_emotes"] = "カスタムエモート";
+		["echo"] = "エコー";
+		["error_messages"] = "エラーメッセージ";
+		["fishing_messages"] = "釣りダイアログ";
+		["free_company"] = "FC";
+		["free_company_announcement"] = "FCアナウンス";
+		["free_company_logins"] = "FCメンバーログイン通知";
+		["gathering_messages"] = "ギャザーダイアログ";
+		["gathering_system_messages"] = "ギャザーシステムメッセージ";
 		["linkshell1"] = "Linkshell 1";
 		["linkshell2"] = "Linkshell 2";
 		["linkshell3"] = "Linkshell 3";
@@ -39,129 +39,129 @@ local obj1 = {
 		["linkshell6"] = "Linkshell 6";
 		["linkshell7"] = "Linkshell 7";
 		["linkshell8"] = "Linkshell 8";
-		["loot_notices"] = "Loot Notices";
-		["novice_network"] = "Novice Network";
-		["novice_network_notifications"] = "Novice Network Notifications";
-		["npc_dialog"] = "NPC Dialog";
-		["npc_dialog_announcement"] = "NPC Dialog (Announcement)";
+		["loot_notices"] = "ロット情報";
+		["novice_network"] = "ビギナーチャンネル";
+		["novice_network_notifications"] = "ビギナーチャンネル通知";
+		["npc_dialog"] = "NPCダイアログ";
+		["npc_dialog_announcement"] = "NPCダイアログ(アナウンス)";
 		["party"] = "Party";
-		["pvp_team"] = "PVP Team";
-		["quest_messages"] = "Quest Messages";
-		["random_number_messages"] = "Random Number Messages";
-		["recruitment_notifications"] = "Periodic Recruitment Notifications";
-		["retainer_sales"] = "Retainer Sale Notifications";
+		["pvp_team"] = "PVPチーム";
+		["quest_messages"] = "クエストメッセージ";
+		["random_number_messages"] = "ダイス";
+		["recruitment_notifications"] = "パーティ募集通知";
+		["retainer_sales"] = "リテイナー販売情報";
 		["say"] = "Say";
 		["shout"] = "Shout";
-		["sign_messages_pc"] = "Sign Messages for PC Targets";
-		["standard_emotes"] = "Standard Emotes";
-		["system_messages"] = "System Messages";
+		["sign_messages_pc"] = "プレイヤーがターゲットされた時の通知";
+		["standard_emotes"] = "エモート";
+		["system_messages"] = "システムメッセージ";
 		["tell"] = "Tell";
 		["yell"] = "Yell";
 	};
 	["common"] = {
-		["XP"] = "XP";
-		["achivements"] = "Achivements";
-		["cancel"] = "Cancel";
-		["companion"] = "Companion";
-		["level_up"] = "Level up";
+		["XP"] = "経験値";
+		["achivements"] = "アチーブメント";
+		["cancel"] = "キャンセル";
+		["companion"] = "バディチョコボ";
+		["level_up"] = "レベルアップ";
 		["no"] = "No";
 		["ok"] = "Ok";
-		["others"] = "Others";
-		["self"] = "Self";
-		["skill_up"] = "Skill up";
+		["others"] = "その他";
+		["self"] = "自身";
+		["skill_up"] = "スキル取得";
 		["yes"] = "Yes";
 	};
 	["gui"] = {
 		["config"] = {
 			["general"] = {
-				["addon_language"] = "Addon Language";
-				["api_key"] = "API Key";
-				["apy_key_format_error"] = "INVALID API KEY FORMAT";
-				["auto_start_addon"] = "Autostart Minionway";
-				["hide_main_gui_on_start"] = "Hide the Minionway main window when the addon starts";
-				["show_main_gui_on_stop"] = "Show the Minionway main window when the addon stops";
+				["addon_language"] = "言語";
+				["api_key"] = "APIキー";
+				["apy_key_format_error"] = "無効なAPIキー形式";
+				["auto_start_addon"] = "Minionwayの自動スタート";
+				["hide_main_gui_on_start"] = "アドオン起動時にMinionwayのメインウィンドウを非表示にする";
+				["show_main_gui_on_stop"] = "アドオン停止時にMinionwayのメインウィンドウを表示する";
 			};
 			["monitoring"] = {
-				["bot_started"] = "FFXIVMinion Started";
-				["bot_stopped"] = "FFXIVMinion Stopped";
-				["company_invite"] = "Alert on free company invite";
-				["party_invite"] = "Party invite is received";
-				["party_teleport"] = "Party teleport is received";
-				["trade_request"] = "Trade requests";
+				["bot_started"] = "FFXIVMinionスタート";
+				["bot_stopped"] = "FFXIVMinion停止";
+				["company_invite"] = "FC勧誘の通知";
+				["party_invite"] = "パーティの招待を受ける";
+				["party_teleport"] = "パーティメンバーのテレポートを受諾する";
+				["trade_request"] = "トレード";
 			};
 			["privacy"] = {
-				["publish_name_as"] = "Enter a custom name for this character";
-				["sync_character_name"] = "Sync character name";
-				["sync_currencies"] = "Sync currencies";
-				["sync_current_target"] = "Sync current target";
-				["sync_inventory_total"] = "Sync inventory total";
-				["sync_map_info"] = "Sync current map and position";
-				["sync_server_info"] = "Sync server information";
+				["publish_name_as"] = "このキャラクターのカスタム名を入力します";
+				["sync_character_name"] = "キャラクター名を同期する";
+				["sync_currencies"] = "通貨を同期させる";
+				["sync_current_target"] = "現在のターゲットを同期する";
+				["sync_inventory_total"] = "インベントリーの空きを同期する";
+				["sync_map_info"] = "現在の位置情報を同期する";
+				["sync_server_info"] = "サーバー情報を同期する";
 			};
-			["sync_with_server_text"] = "Sync the following events with the Minionway server?";
+			["sync_with_server_text"] = "Minionwayサーバーと同期させるイベント(以下項目)";
 			["tabs"] = {
-				["craft_gather"] = "Crafting & Gathering";
-				["debug"] = "Debug";
-				["game_monitoring"] = "Monitoring";
-				["game_related"] = "Game Related";
-				["general"] = "General";
-				["group"] = "Group";
+				["craft_gather"] = "クラフト & ギャザラー";
+				["debug"] = "デバッグ";
+				["game_monitoring"] = "モニタリング";
+				["game_related"] = "ゲームリロード";
+				["general"] = "一般";
+				["group"] = "グループ";
 				["linkshell"] = "Linkshell";
-				["map"] = "Map";
-				["privacy"] = "Privacy";
+				["map"] = "マップ";
+				["privacy"] = "プライバシー";
 			};
-			["title"] = "Configuration";
+			["title"] = "設定";
 		};
 		["main"] = {
-			["addon_status"] = "Status";
-			["addon_version"] = "Version";
+			["addon_status"] = "ステータス";
+			["addon_version"] = "バージョン";
 		};
 	};
 	["mmominion"] = {
 		["shortcut_togglegui_name"] = "Toggle Minionway GUI";
-		["ui_mgr_tooltip"] = "Open the Minionway addon and take your FFXIVMinion game to the next level";
+		["ui_mgr_tooltip"] = "Minionwayアドオンを開いて、FFXIVMinionのゲーム体験を次のレベルに引き上げましょう！";
 	};
 	["modals"] = {
 		["http_error_401"] = {
-			["body"] = "Minionway has encountered a fatal error while communicating with the server. The error was \"401 Unauthorized\"\
+			["body"] = "Minionwayのサーバーとの通信中に致命的なエラーが発生しました。エラーは「401 Unauthorized」です。\
 \
-This usually means the API key you provided is invalid, has expired or has been deleted. Please check your API key and try again.";
-			["title"] = "Minionway stopped - HTTP Error 401 - Unauthenticated";
+これは通常、あなたが入力したAPIキーが無効であるか、有効期限が切れているか、削除されたことを意味します。APIキーをご確認の上、再度お試しください。";
+			["title"] = "Minionwayが停止 - HTTPエラー401 - 認証されていません。";
 		};
 		["http_error_403"] = {
-			["body"] = "Minionway has encountered a fatal error while communicating with the server. The error was \"403 Forbidden\"\
+			["body"] = "Minionwayのサーバーとの通信中に致命的なエラーが発生しました。エラーは、「403 Forbidden」です。\
 \
-This usually means the API key you provided is valid but does not have the \"addon-sync\" permission assigned to it. Please check your API key permissions on the Minionway website and try again.";
-			["title"] = "Minionway stopped - HTTP Error 403 - Forbidden";
+これは通常、提供されたAPIキーは有効ですが、そのキーに「addon-sync」許可が割り当てられていないことを意味します。MinionwayのWebサイトでAPIキーの許可情報を確認し、もう一度試してみてください。";
+			["title"] = "Minionwayが停止 - HTTPエラー403 - Forbidden";
 		};
 		["http_error_422"] = {
-			["body"] = "Minionway has encountered a fatal error while communicating with the server. The following error message was provided by the server:\
+			["body"] = "Minionwayのサーバーとの通信中に致命的なエラーが発生しました。エラーメッセージは次の通りです:\
 \
 ";
-			["title"] = "Minionway stopped - HTTP Error 422 - Unprocessable Content";
+			["title"] = "Minionwayが停止 - HTTPエラー422 - 処理不能なコンテンツ";
 		};
 		["http_error_429"] = {
-			["body"] = "Minionway has encountered a fatal error while communicating with the server. The error was \"429 - Too Many Requests\"\
+			["body"] = "Minionwayのサーバーとの通信中に致命的なエラーが発生しました。エラーは「429 - Too Many Requests」です。\
 \
-This means that you are sending too many requests to the Minionway server.";
-			["title"] = "Minionway stopped - HTTP Error 429 - Too Many Requests";
+これは、Minionwayサーバーに多くのリクエストを送信していることを意味します。";
+			["title"] = "Minionwayが停止 - HTTPエラー429 - リクエスト過多";
 		};
 		["new_version_available"] = {
-			["body"] = "A new version of the MMOMinion addon for Minionway is available at https://www.minionway.com. For more information on what's new, please check our Discord server.\
+			["body"] = "Minionway用MMOMinionアドオンの新バージョンが、https://www.minionway.com で公開されています。新着情報については、Discordサーバーをご確認ください。\
 \
-This message will not be shown again during this session.";
-			["title"] = "Minionway - A new version is available!";
+このメッセージは、このセッション中に再度表示されることはありません。";
+			["title"] = "Minionway - 新バージョンが公開されました！";
 		};
 		["too_many_api_errors"] = {
-			["body"] = "Minionway has encountered too many errors while communicating with the server. Try again in a few minutes.\
+			["body"] = "Minionwayのサーバーとの通信中にエラーが多発しました。数分後に再試行してください。\
 \
-If the problem persists, please contact us via Discord.";
-			["title"] = "Minionway stopped - Too many API errors";
+問題が解決しない場合は、Discordでご連絡ください。";
+			["title"] = "Minionwayが停止 - APIエラーの多発";
 		};
 	};
 	["status"] = {
-		["running"] = "Running";
-		["stopped"] = "Stopped";
+		["running"] = "稼働中";
+		["stopped"] = "停止中";
 	};
 }
 return obj1
