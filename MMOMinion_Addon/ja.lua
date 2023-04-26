@@ -4,7 +4,7 @@ local multiRefObjects = {
 } -- multiRefObjects
 local obj1 = {
 	["buttons"] = {
-		["close_window"] = "Close this window";
+		["close_window"] = "このウィンドウを閉じる";
 		["config"] = "設定";
 		["start"] = "Start";
 		["stop"] = "Stop";
