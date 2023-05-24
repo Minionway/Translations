@@ -92,8 +92,6 @@
             "channel_already_linked": "Este canal ya está asociado con otro personaje. Solo un personaje puede ser asociado por canal de discord.",
             "help": "Comandos disponibles: :commands",
             "invalid_id_provided": "ID inválido ingresado.",
-            "mirror_already_disabled": "Eventos Mirror no está activo para :player.",
-            "mirror_already_enabled": "Eventos Mirror ya está activo para :player.",
             "mirror_disabled": "Eventos Mirror ha sido deshabilitado para :player. Ya no recibirás una copia de todas las interacciones y eventos sincronizadas en este canal. Seguirán estando disponible en el sitio web Minionway.",
             "mirror_enabled": "Eventos Mirror ha sido habilitado para :player. Ahora recibirás una copia de todas las interacciones y eventos sincronizados en este canal.",
             "no_content_for_command": "No puedes enviar un mensaje en blanco usando el comando :command.",
@@ -115,7 +113,7 @@
             "discord_mirror_events": "Mirror events",
             "discord_mirror_events_description": "Envia una copia de todas las interacciones y eventos al canal de Discord enlazado a tu personaje.",
             "linked": "Actualmente enlazado a <span class=\"font-semibold\">:server #:channel</span>",
-            "not_linked": "Este personaje no está actualmente enlazado a ningún canal de Discord. Para enlazarlo, presiona el enlace a continuación para invitar a Minionway a tu servidor de Discord. Una vez que Minionway esté conectado a tu servidor, escribe \"@Minionway link :player_id\" en el canal donde quieras usar este personaje.",
+            "not_linked": "Este personaje no está actualmente enlazado a ningún canal de Discord. Para enlazarlo, presiona el enlace a continuación para invitar a Minionway a tu servidor de Discord. Una vez que Minionway esté conectado a tu servidor, escribe \"/link :player_id\" en el canal donde quieras usar este personaje.",
             "saved": "¡Guardado!",
             "title": "Integración con Discord"
         },
@@ -220,7 +218,7 @@
             "login": "Iniciar sesión con Discord"
         },
         "footer": {
-            "line1": "Minionway no está afiliado, asociado ni respaldado por MMOMinion (Raving Lunatic Sp. z o.o.) y/o Final Fantasy XIV (SQUARE ENIX CO., LTD.). Final Fantasy XIV © 2010-:year SQUARE ENIX CO., LTD. Todas las marcas registradas son propiedad de sus respectivos dueños.",
+            "line1": "Minionway no está afiliado, asociado ni respaldado por MMOMinion (Raving Lunatic Sp. z o.o.), Rebornbuddy (p+p Gaming GmbH) y/o Final Fantasy XIV (SQUARE ENIX CO., LTD.). Final Fantasy XIV © 2010-:year SQUARE ENIX CO., LTD. Todas las marcas registradas son propiedad de sus respectivos dueños.",
             "line2": "Minionway.com y el logo de Minionway son ©:year Minionway Software. El logo de Minionway fue creado por el increiblemente talentoso <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
         },
         "top_navigation": {
@@ -269,8 +267,8 @@
                 "text": "Ve lo que ocurre a tu alrededor, en tu Free Company o en tus Linkshells."
             },
             "integrates": {
-                "header": "Integrado con FFXIVMinion.",
-                "text": "Funciona con addons the FFXIVMinion. Incluso puedes monitorear/controlar algunos directamente en Minionway."
+                "header": "Integrado con FFXIVMinion y Rebornbuddy.",
+                "text": "Funciona con addons y plugins. Incluso puedes monitorear/controlar algunos directamente desde Minionway."
             },
             "reply_back": {
                 "header": "Responde mensajes",

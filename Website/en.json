@@ -35,6 +35,7 @@
         "10001": "Party Invite",
         "10002": "Party Teleport",
         "10003": "Free Company Invite",
+        "11000": "Reply",
         "101": "Crossworld Linkshell 2",
         "102": "Crossworld Linkshell 3",
         "103": "Crossworld Linkshell 4",
@@ -58,6 +59,8 @@
         "20": "Linkshell 5",
         "20000": "FFXIVMinion Started",
         "20001": "FFXIVMinion Stopped",
+        "30000": "Rebornbuddy Started",
+        "30001": "Rebornbuddy Stopped",        
         "21": "Linkshell 6",
         "22": "Linkshell 7",
         "23": "Linkshell 8",
@@ -92,8 +95,6 @@
             "channel_already_linked": "This channel is already linked with another character. Only one character can be linked per Discord channel.",
             "help": "Here are the commands available for you: :commands",
             "invalid_id_provided": "Invalid ID provided.",
-            "mirror_already_disabled": "Mirror events is not active for :player.",
-            "mirror_already_enabled": "Mirror events is already active for :player.",
             "mirror_disabled": "Mirror events has been disabled for :player. You will no longer receive a copy of all sync'ed interactions and events in this channel. They will still be available on the Minionway website.",
             "mirror_enabled": "Mirror events has been enabled for :player. You will now receive a copy of all sync'ed interactions and events in this channel.",
             "no_content_for_command": "You cannot send an empty message using the command :command.",
@@ -106,6 +107,12 @@
             "unknown_error": "I was not able to process that command but I'm not sure why. Seek support in the Minionway Discord server."
         }
     },
+    "downloads": {
+        "title": "Downloads",
+        "download": "Download",
+        "version": "Version",
+        "install_guide": "Install guide"
+    },
     "player": {
         "classes_currency": {
             "nothing_yet": "Nothing yet!"
@@ -115,7 +122,7 @@
             "discord_mirror_events": "Mirror events",
             "discord_mirror_events_description": "Send a copy of all interactions and events to the Discord channel you have linked to this character.",
             "linked": "Currently linked to <span class=\"font-semibold\">:server #:channel</span>",
-            "not_linked": "This character is currently not linked to any Discord server and channel. To link it, click the link below to invite Minionway in your Discord server. Once Minionway is connected to your server, type \"@Minionway link :player_id\" in the channel you want to use for this character.",
+            "not_linked": "This character is currently not linked to any Discord server and channel. To link it, click the link below to invite Minionway in your Discord server. Once Minionway is connected to your server, type \"/link :player_id\" in the channel you want to use for this character.",
             "saved": "Saved!",
             "title": "Discord Integration"
         },
@@ -220,11 +227,11 @@
             "login": "Login with Discord"
         },
         "footer": {
-            "line1": "Minionway is not affiliated, associated or endorsed by MMOMinion (Raving Lunatic Sp. z o.o.) and/or Final Fantasy XIV (SQUARE ENIX CO., LTD.). Final Fantasy XIV © 2010-:year SQUARE ENIX CO., LTD. All trademarks are property of their respective owners.",
+            "line1": "Minionway is not affiliated, associated or endorsed by MMOMinion (Raving Lunatic Sp. z o.o.), Rebornbuddy (p+p Gaming GmbH) and/or Final Fantasy XIV (SQUARE ENIX CO., LTD.). Final Fantasy XIV © 2010-:year SQUARE ENIX CO., LTD. All trademarks are property of their respective owners.",
             "line2": "Minionway.com and the Minionway logo are ©:year Minionway Software. The Minionway logo was created by the incredibly talented <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
         },
         "top_navigation": {
-            "download": "Download",
+            "download": "Downloads",
             "notifications": "Notifications",
             "players": "Characters",
             "retainer_sales": "Retainer Sales"
@@ -269,8 +276,8 @@
                 "text": "See what's happening around you, in your Free Company or in your Linkshells."
             },
             "integrates": {
-                "header": "Integrates into FFXIVMinion.",
-                "text": "Works with every other FFXIVMinion addons. You can even monitor/control some of them directly in Minionway."
+                "header": "Integrates with FFXIVMinion and Rebornbuddy.",
+                "text": "It works alongside every other addon/plugin. You can even monitor/control some of them directly in Minionway."
             },
             "reply_back": {
                 "header": "Reply back",

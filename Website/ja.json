@@ -91,8 +91,6 @@
             "channel_already_linked": "このチャンネルはすでに他のキャラクターとリンクしています。1つのDiscordチャンネルにつき、1人のキャラクターしかリンクさせることができません。",
             "help": "以下は、利用可能なコマンドです: :commands",
             "invalid_id_provided": "提供されたIDが無効です",
-            "mirror_already_disabled": "Discordへのミラーイベントは、 :playerには有効ではありません。",
-            "mirror_already_enabled": "Discordへのミラーイベントは、 :playerに対して既に有効です。",
             "mirror_disabled": "Discordへのミラーイベントは :playerで無効化されました。このチャンネルで同期されたすべてのインタラクションやイベントのコピーを受け取ることができなくなりました。Minionwayのウェブサイトでは、引き続き利用可能です。",
             "mirror_enabled": "Discordへのミラーイベントが :playerで有効になりました。このチャンネルで同期されたすべてのインタラクションとイベントのコピーを受け取ることができるようになりました。",
             "no_content_for_command": "コマンド :commandを使って、空のメッセージを送信することはできません。",
@@ -114,7 +112,7 @@
             "discord_mirror_mode": "",
             "discord_mirror_mode_description": "",
             "linked": "現在、<span class=\"font-semibold\">:server #:channel</span>にリンクされています。",
-            "not_linked": "このキャラクターは現在、どのDiscordサーバーやチャンネルにもリンクされていません。リンクさせるには、以下のリンクをクリックして、あなたのDiscordサーバーにMinionwayを招待してください。Minionwayがあなたのサーバーに接続されたら、このキャラクターに使用したいチャンネルに \"@Minionway link :player_id\" と入力してください。",
+            "not_linked": "このキャラクターは現在、どのDiscordサーバーやチャンネルにもリンクされていません。リンクさせるには、以下のリンクをクリックして、あなたのDiscordサーバーにMinionwayを招待してください。Minionwayがあなたのサーバーに接続されたら、このキャラクターに使用したいチャンネルに \"/link :player_id\" と入力してください。",
             "saved": "保存しました",
             "title": "Deiscordとの連携"
         },
@@ -218,9 +216,8 @@
             "login": "Discordでログインしてください"
         },
         "footer": {
-            "line1": "Minionwayは、MMOMinion(Raving Lunatic Sp. z o.o.)およびFinal Fantasy XIV (SQUARE ENIX CO., LTD.) と提携、関連、支持するものではありません。ファイナルファンタジーXIV © 2010-:year SQUARE ENIX CO., LTD. すべての商標は、それぞれの所有者に帰属します。",
+            "line1": "Minionwayは、MMOMinion(Raving Lunatic Sp. z o.o.), Rebornbuddy (p+p Gaming GmbH)およびFinal Fantasy XIV (SQUARE ENIX CO., LTD.) と提携、関連、支持するものではありません。ファイナルファンタジーXIV © 2010-:year SQUARE ENIX CO., LTD. すべての商標は、それぞれの所有者に帰属します。",
             "line2": "Minionway.com and the Minionway logo are ©:year Minionway Software. The Minionway logo was created by the incredibly talented <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
-
         },
         "top_navigation": {
             "download": "ダウンロード",

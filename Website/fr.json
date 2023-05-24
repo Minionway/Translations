@@ -34,6 +34,7 @@
         "10001": "Party Invite",
         "10002": "Party Teleport",
         "10003": "Free Company Invite",
+        "11000": "Répondre",
         "101": "Crossworld Linkshell 2",
         "102": "Crossworld Linkshell 3",
         "103": "Crossworld Linkshell 4",
@@ -91,8 +92,6 @@
             "channel_already_linked": "",
             "help": "",
             "invalid_id_provided": "",
-            "mirror_already_disabled": "",
-            "mirror_already_enabled": "",
             "mirror_disabled": "",
             "mirror_enabled": "",
             "no_content_for_command": "",
@@ -172,7 +171,8 @@
         "invalid_discord_handle": "",
         "reset_button": "Réinitialiser",
         "save_button": "Sauvegarder",
-        "search_button": "Chercher"
+        "search_button": "Chercher",
+        "version": "Version"
     },
     "user": {
         "delete_account": {
@@ -218,14 +218,14 @@
             "login": ""
         },
         "footer": {
-            "line1": "Minionway n'est pas affilié, associé ou approuvé par MMOMinion (Raving Lunatic Sp. z o.o.) et/ou Final Fantasy XIV (SQUARE ENIX CO., LTD.). Final Fantasy XIV © 2010-:year SQUARE ENIX CO., LTD. Toutes les marques déposées sont la propriété de leurs propriétaires respectifs.",
+            "line1": "Minionway n'est pas affilié, associé ou approuvé par MMOMinion (Raving Lunatic Sp. z o.o.), Rebornbuddy (p+p Gaming GmbH) et/ou Final Fantasy XIV (SQUARE ENIX CO., LTD.). Final Fantasy XIV © 2010-:year SQUARE ENIX CO., LTD. Toutes les marques déposées sont la propriété de leurs propriétaires respectifs.",
             "line2": "Minionway.com et le logo Minionway sont ©:year Minionway Software. Le logo Minionway a été créé par l'incroyablement talentueuse <a href=\"https://www.instagram.com/p/CqB8FEtrLXN/\" class=\"font-semibold text-indigo-600 underline dark:text-indigo-400\" target=\"_blank\">MABerube</a>."
         },
         "top_navigation": {
-            "download": "",
-            "notifications": "",
-            "players": "",
-            "retainer_sales": ""
+            "download": "Téléchargements",
+            "notifications": "Notifications",
+            "players": "Personnages",
+            "retainer_sales": "Serviteurs"
         },
         "translation_in_progress": {
             "header": "Traduction en cours",
@@ -267,8 +267,8 @@
                 "text": "Voyez ce qui se passe autour de vous, dans votre compagnie libre ou dans vos Linkshells."
             },
             "integrates": {
-                "header": "S'intègre dans FFXIVMinion.",
-                "text": "Fonctionne avec tous les autres addons FFXIVMinion. Vous pouvez même surveiller/contrôler certains d'entre eux directement dans Minionway."
+                "header": "S'intègre dans FFXIVMinion et Rebornbuddy.",
+                "text": "Il fonctionne avec tous les autres addons/plugin. Vous pouvez même surveiller/contrôler certains d'entre eux directement dans Minionway."
             },
             "reply_back": {
                 "header": "Répondez",
