@@ -159,6 +159,7 @@
             "datacenter": "Datacenter",
             "date_time": "Date/Time",
             "dc_server": "DC/Server",
+            "is_hq": "HQ",
             "item": "Item",
             "market": "Market",
             "player": "Character",
